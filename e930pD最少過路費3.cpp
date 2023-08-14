@@ -3,7 +3,7 @@
 #include <unordered_map>
 #include <limits>
 using namespace std;
-//AC (1.1s, 20.5MB)
+//	AC (0.9s, 19.9MB)
 typedef long long ll;
 struct Data
 {
@@ -13,7 +13,7 @@ struct Data
 const ll INF = numeric_limits<ll>::max();
 int n, m, k;
 ll r = INF;
-unordered_map<int,vector<Data>> mp;
+vector<vector<Data>>mp;
 void dp() {
     vector<vector<ll>> dp(n, vector<ll>(k + 1, INF));
     dp[0][0] = 0;
@@ -37,6 +37,7 @@ int main() {
     ios_base::sync_with_stdio(false);
     ll a, b, c;
     cin >> n >> m >> k;
+    mp.resize(n);
     for (int i = 0; i < m; i++) {
         cin >> a >> b >> c;
         mp[a].push_back({b, c});
