@@ -13,16 +13,14 @@ int main() {
         for(int j=0;j<n1;j++){
             cin>>coins[j];
         }
-        vector<vector<int>>dp(n1+1,vector<int>(amount+1,0));
-        for(int j=1;j<=n1;j++){
-            for(int k=1;k<=amount;k++){
-                dp[j][k]=dp[j-1][k];
-                if(coins[j-1]<=k){
-                    dp[j][k]=max(dp[j][k],dp[j-1][k-coins[j-1]]+coins[j-1]);
-                }
+        vector<int>dp(amount+1,0);
+        dp[0]=1;
+        for(int j=0;j<n1;j++){
+            for(int k=amount; k >= coins[j]; k--){
+                dp[k]+=dp[k - coins[j]];
             }
         }
-        cout<<(dp[n1][amount]==amount?"YES":"NO")<<endl;
+        cout<<(dp[amount]?"YES":"NO")<<endl;
     }
     return 0;
 }
