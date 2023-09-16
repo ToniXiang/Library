@@ -1,3 +1,4 @@
+//	AC (2ms, 328KB)
 #include<iostream>
 #include<math.h>
 using namespace std;

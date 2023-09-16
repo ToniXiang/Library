@@ -1,3 +1,4 @@
+//	AC (6ms, 348KB)
 #include<iostream>
 #include<vector>
 using namespace std;

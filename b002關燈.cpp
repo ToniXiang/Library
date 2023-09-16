@@ -1,3 +1,4 @@
+//	AC (6ms, 328KB)
 #include<iostream>
 #include<math.h>
 #include<limits>

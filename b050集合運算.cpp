@@ -1,3 +1,4 @@
+//	AC (2ms, 328KB)
 #include <iostream>
 #include <set>
 #include <numeric>
