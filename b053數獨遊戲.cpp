@@ -1,4 +1,4 @@
-// WA (case:1)
+// 	AC (58ms, 872KB)
 #include<iostream>
 #include<vector>
 #include<set>
@@ -18,7 +18,7 @@ void dfs(int cur_n,vector<sc>col,vector<sc>row,vector<sc>dgv,vector<vc>mp){
             for(int j=0;j<n2;j++){
                 cout<<mp[i][j]<<" ";
             }
-            cout<<endl;
+            cout<<"\n";
         }
         return;
     }
@@ -43,7 +43,7 @@ void dfs(int cur_n,vector<sc>col,vector<sc>row,vector<sc>dgv,vector<vc>mp){
 }
 int main() {
     ios_base::sync_with_stdio(false);
-    string s;
+    char s;
     while(cin>>n){
         num.clear();
         cod=false;
@@ -52,16 +52,17 @@ int main() {
         vector<vc>mp(n2,vc(n2));
         vector<sc>col(n2,sc()),row(n2,sc()),dgv(n2,sc());
         for(int i=0;i<n2;i++){
-            cin>>s;
             for(int j=0;j<n2;j++){
-                mp[i][j]=s[j];
-                if(s[j]!='0'){
-                    col[i].insert(s[j]);
-                    row[j].insert(s[j]);
-                    dgv[(i/n)*n+(j/n)].insert(s[j]);
-                }
-                else{
-                    num.push_back({i,j});
+                if(cin>>s,s){
+                    mp[i][j]=s;
+                    if(s!='0'){
+                        col[i].insert(s);
+                        row[j].insert(s);
+                        dgv[(i/n)*n+(j/n)].insert(s);
+                    }
+                    else{
+                        num.push_back({i,j});
+                    }
                 }
             }
         }
