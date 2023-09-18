@@ -7,9 +7,9 @@ using namespace std;
 typedef long long ll;
 struct Data
 {
-    ll end;
-    ll cost;
-    ll rd;
+    ll name;//城市編號
+    ll cost;//當前到此花費
+    ll rd;  //原點到此花費
 };
 int n,m,k;
 const ll INF=numeric_limits<ll>::max();
@@ -21,11 +21,11 @@ void dfs(ll cur,int path,ll total){
         ll newrd=it.cost+total;
         if(it.rd>newrd){
             it.rd=newrd;
-            if(it.end==n&&path<k){
+            if(it.name==n&&path<k){
                 r=min(r,newrd);
                 return;
             }
-            dfs(it.end,path+1,newrd);
+            dfs(it.name,path+1,newrd);
         }
     }
 }
