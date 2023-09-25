@@ -1,6 +1,7 @@
 #include <iostream>
 typedef long long type;
 using namespace std;
+//調和級數 數論
 int main()
 {
     ios::sync_with_stdio(false);
