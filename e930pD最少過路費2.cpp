@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include <queue>
 #include <limits>
 //	NA (score:40%)

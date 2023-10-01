@@ -1,15 +1,7 @@
+// AC (3ms, 332KB)
 #include <iostream>
 using namespace std;
 typedef long long ll;
-// AC (3ms, 332KB)
-/*
-6
-3 9 10 6
-5
-1 9 5 6
-1
-1 1 1 1
-*/
 ll N;
 ll rs(ll x, ll y)
 {
