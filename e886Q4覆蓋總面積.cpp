@@ -7,57 +7,57 @@ using namespace std;
 struct Data {
     int pos, d, u, del;
 };
-typedef vector<Data> vd;
-typedef long long ll;
 bool cmp(const Data& a, const Data& b) {
     return a.pos>b.pos;
 }
+typedef vector<Data> vd;
+using pq_type = priority_queue<Data, vd, decltype(&cmp)>;
 //Segment Tree 線段樹
-//左節點編號為 x*2 (x<<1)，右節點則為 x * 2 + 1 (x<<1|1)
-int st[4000020]={0},lazy[4000020]={0};
+//左節點編號為 id*2 (id<<1)，右節點則為 id * 2 + 1 (id<<1|1)
+//id * 2 + 2 不為 id << 1 | 2 ex. id = 1，1 << 1 | 2 = 2 非 2 + 2
+#define id_left (id<<1)
+#define id_right (id<<1)|1
+int seg[(int)1E6<<2]={0},arr[(int)1E6<<2]={0};
 //區間樹的每個節點都包含了正確的信息
-void push_up(int x,int left,int right){
-    if(lazy[x])st[x]=right-left+1;
-    else if(right!=left)st[x]=st[x*2]+st[x*2+1];
-    else st[x]=0;
+void build(int id,int left,int right){
+    if(arr[id])seg[id]=right-left+1;
+    else if(left!=right)seg[id]=seg[id_left]+seg[id_right];
+    else seg[id]=0;
 }
 //用於更新區間樹中的節點，以處理矩形的添加和移除操作
-void update(int x,int left,int right,int ul,int ur,int d){
-    if (ul<=left&&right<=ur){
-        lazy[x]+=d;
-        push_up(x,left,right);
+void update(int id,int left,int right,int query_left,int query_right,int del){
+    if (query_left<=left&&right<=query_right){
+        arr[id]+=del;
+        build(id,left,right);
         return;
     }
     int mid=left+(right-left)/2;
-    if(ul<=mid)update(x*2,left,mid,ul,ur,d);
-    if(mid<ur)update(x*2+1,mid+1,right,ul,ur,d);
-    push_up(x,left,right);
+    if(query_left<=mid)update(id_left,left,mid,query_left,query_right,del);
+    if(mid<query_right)update(id_right,mid+1,right,query_left,query_right,del);
+    build(id,left,right);
 }
 int main() {
-    priority_queue<Data,vd,decltype(&cmp)>pq(&cmp);
-    int left, D, right, U;
+    ios::sync_with_stdio(false);
+    pq_type pq(&cmp);
+    int left, down, right, up;
     string s;
     while (getline(cin,s)){
-        if(s=="")break;
-        if(*s.end()==' ')s.erase(s.end()-1);
-        stringstream ss(s);
-        ss>>left;
-        ss>>D;
-        ss>>right;
-        ss>>U;
-        pq.push({left,D+1,U,1});
-        pq.push({right,D+1,U,-1});
+        if (s.empty()) break;
+        istringstream iss(s);
+        iss>>left>>down>>right>>up;
+        pq.push({left,down+1,up,1});
+        pq.push({right,down+1,up,-1});
     }
     int pre = 0;
-    ll ans = 0;
+    long long ans = 0;
     while(pq.size()>0){
         Data cur=pq.top();
         pq.pop();
         if (cur.pos!= pre){
-            ans += 1LL*(cur.pos-pre)*st[1];
+            ans += 1LL*(cur.pos-pre)*seg[1];
             pre = cur.pos;
         }
-        update(1, 1, 1000000, cur.d, cur.u, cur.del);
+        update(1,1,1E6, cur.d, cur.u, cur.del);
     }
     cout<<ans<<endl;
     return 0;
