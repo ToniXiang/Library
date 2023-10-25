@@ -68,11 +68,10 @@ void update(Node* id, int left, int right, int query_left, int query_right, int 
     }
 }
 void deleteTree(Node* node) {
-    if (node) {
-        deleteTree(node->left);
-        deleteTree(node->right);
-        delete node;
-    }
+    if(!node)return;
+    deleteTree(node->left);
+    deleteTree(node->right);
+    delete node;
 }
 int main()
 {
