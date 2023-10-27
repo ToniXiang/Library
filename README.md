@@ -1,5 +1,16 @@
-# 高中生程式解題系統
-## C++ 演算法實作與學習
-> 時隔一年以上把本人高二時期沒做出來的題目多加嘗試與留下解題的思路，當初解題是當作額外學習，主要還是把重心專攻軟體設計（Visual C#）上。
-> 往後大學將利用課餘時間，專門解競賽題目以提升自己的程式專業能力，有實際評分檔案會註明完成度。高中時期有跟大一屆的學長學習，也參加過比賽，
-> 本人對演算法有基本概念，但對於某些題目多少有困難之處，為求「紀錄」，會多寫點自己的想法。
+# 個人程式解題庫
+
+## CPE題目 since 2023
+
+## [20231019](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-10-17)
+|題號|題目名|資料結構|演算法|完成度|補充|
+|:-:|:----:|:------:|:---:|:---:|:--:|
+| 1 |[11576: Scrolling Sign](CPE/20231019CPE/11576Scrolling_Sign.cpp)|陣列、字串|字串合併|solved||
+| 2 |[10093: An Easy Problem!](CPE/20231019CPE/10093An_Easy_Problem.cpp)|字串|數論|solved|n\|(a + b + c)=n\|(N-1)|
+| 3 |[10161: Ant on a Chessboard](CPE/20231019CPE/10161Ant_on_a_Chessboard.cpp)||數論|unsolved||
+| 4 |[442: Matrix Chain Multiplication](CPE/20231019CPE/442Matrix_Chain_Multiplication.cpp)|堆疊、陣列、無序map|括號匹配|solved|矩陣鏈乘積|
+| 5 |1193: Radar Installation |||||
+| 6 |10672: Marbles on a tree|||||
+| 7 |11175: From D to E and Back|||||
+## 資訊能力競賽題
+
