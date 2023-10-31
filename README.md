@@ -13,13 +13,13 @@
 ## CPE一顆星選集
 ||UVA編號|題目|演算法|補充|
 |:-:|:-:|:-:|:-:|:-:|
-|1|[10041](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=982)|[Vito'sfamily]|||
-|2|[10055](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=996)|[HashmattheBraveWarrior]|||
-|3|[10035](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=976)|[PrimaryArithmetic]|||
-|4|[100](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=36)|[The3n+1problem]||||
-|5|[10929](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=21&page=show_problem&problem=1870)|[Youcansay11]||||
-|6|[10101](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1042)|[BanglaNumbers]||||
-|7|[10420](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361)|[ListofConquests]||||
+|1|[10041](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=982)|[Vito'sfamily](一星題/Vito_s_family.cpp)|||
+|2|[10055](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=996)|[HashmattheBraveWarrior](一星題/Hashmat_the_Brave_Warrior.cpp)|||
+|3|[10035](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=976)|[PrimaryArithmetic](一星題/Primary_Arithmetic.cpp)|||
+|4|[100](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=36)|[The3n+1problem](一星題/The_3n_1_problem.cpp)||||
+|5|[10929](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=21&page=show_problem&problem=1870)|[Youcansay11](一星題/You_can_say_11.cpp)||||
+|6|[10101](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1042)|[BanglaNumbers](一星題/Bangla_Numbers.cpp)||||
+|7|[10420](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361)|[ListofConquests](一星題/List_of_Conquests.cpp)||||
 |8|[10008](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=949)|[What'sCryptanalysis?]||||
 |9|[10222](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1163)|[DecodetheMadman]||||
 |10|[11332](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2307)|[SummingDigits]||||
