@@ -1,5 +1,5 @@
 # 個人程式解題庫
-## CPE題目since2023
+## CPE題目 since 2023
 ### <p align="center">[20231019](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-10-17)</p>
 |題號|編號&題目|資料結構|演算法|完成度|補充|
 |:-:|:----:|:------:|:---:|:---:|:--:|
@@ -20,9 +20,10 @@
 |5|[10929](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=21&page=show_problem&problem=1870)|[Youcansay11](一星題/You_can_say_11.cpp)||||
 |6|[10101](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1042)|[BanglaNumbers](一星題/Bangla_Numbers.cpp)||||
 |7|[10420](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361)|[ListofConquests](一星題/List_of_Conquests.cpp)||||
-|8|[10008](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=949)|[What'sCryptanalysis?]||||
-|9|[10222](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1163)|[DecodetheMadman]||||
-|10|[11332](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2307)|[SummingDigits]||||
+|8|[10008](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=949)|[What'sCryptanalysis?](一星題/What_s_Cryptanalysis.cpp)||||
+|9|[10222](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1163)|[DecodetheMadman](一星題/Decode_the_Mad_man.cpp)||||
+|10|[11332](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2307)|[SummingDigits](一星題/Summing_Digits.cpp)||||
+|11 | [10252](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1193) | [Common Permutation](一星題/Common_Permutation.cpp)||||
 |12|[490](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=431)|[RotatingSentences]||||
 |13|[272](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208)|[TeXQuotes]||||
 |14|[12019](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=242&page=show_problem&problem=3170)|[Doom'sDayAlgorithm]||||
