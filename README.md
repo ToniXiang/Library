@@ -24,10 +24,10 @@
 |9|[10222](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1163)|[DecodetheMadman](一星題/Decode_the_Mad_man.cpp)||||
 |10|[11332](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2307)|[SummingDigits](一星題/Summing_Digits.cpp)||||
 |11 | [10252](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1193) | [Common Permutation](一星題/Common_Permutation.cpp)||||
-|12|[490](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=431)|[RotatingSentences]||||
-|13|[272](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208)|[TeXQuotes]||||
-|14|[12019](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=242&page=show_problem&problem=3170)|[Doom'sDayAlgorithm]||||
-|15|[10038](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=979)|[JollyJumpers]||||
+|12|[490](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=431)|[RotatingSentences](一星題/Rotating_Sentences.cpp)||||
+|13|[272](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208)|[TeXQuotes](一星題/TeX_Quotes.cpp)||||
+|14|[12019](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=242&page=show_problem&problem=3170)|[Doom'sDayAlgorithm](一星題/Doom_s_Day_Algorithm.cpp)||||
+|15|[10038](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=979)|[JollyJumpers](一星題/Jolly_Jumpers.cpp)||||
 |16|[10056](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=997)|[WhatistheProbability?]||||
 |17|[10170](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1111)|[TheHotelwithInfiniteRooms]||||
 |18|[10268](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1209)|[498’]||||
