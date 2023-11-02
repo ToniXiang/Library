@@ -13,10 +13,10 @@
 ### <p align="center">[20230523](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-05-23)</p>
 |題號|編號&題目|資料結構|演算法|完成度|補充|
 |:--:|:------:|:-----:|:----:|:---:|:--:|
-|1|[11934:MagicFormula](CPE/20230523CPE/11934Magic_Formula.cpp)|||solved||
-|2|[11349:SymmetricMatrix](CPE/20230523CPE/11349Symmetric_Matrix.cpp)|||solved||
-|3|[834:ContinuedFractions](CPE/20230523CPE/834Continued_Fractions.cpp)|||solved||
-|4|[12455:Bars](CPE/20230523CPE/12455Bars.cpp)|||solved||
+|1|[11934:MagicFormula](CPE/20230523CPE/11934Magic_Formula.cpp)||數論|solved||
+|2|[11349:SymmetricMatrix](CPE/20230523CPE/11349Symmetric_Matrix.cpp)|陣列||solved||
+|3|[834:ContinuedFractions](CPE/20230523CPE/834Continued_Fractions.cpp)||數論|solved||
+|4|[12455:Bars](CPE/20230523CPE/12455Bars.cpp)|陣列|動態規劃、子集和問題|solved||
 |5|[512:SpreadsheetTracking](CPE/20230523CPE/512Spreadsheet_Tracking.cpp)|陣列||solved||
 |6|828:DecipheringMessages|||||
 |7|828:DecipheringMessages|||||
@@ -48,11 +48,11 @@
 |13|[272](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208)|[TeXQuotes](一星題/TeX_Quotes.cpp)||||
 |14|[12019](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=242&page=show_problem&problem=3170)|[Doom'sDayAlgorithm](一星題/Doom_s_Day_Algorithm.cpp)||||
 |15|[10038](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=979)|[JollyJumpers](一星題/Jolly_Jumpers.cpp)||||
-|16|[10056](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=997)|[WhatistheProbability?]||||
-|17|[10170](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1111)|[TheHotelwithInfiniteRooms]||||
-|18|[10268](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1209)|[498’]||||
-|19|[10783](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=19&page=show_problem&problem=1724)|[OddSum]||||
-|20|[10812](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1753)|[BeattheSpread!]||||
+|16|[10056](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=997)|[WhatistheProbability?](一星題/What_is_the_Probability.cpp)||||
+|17|[10170](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1111)|[TheHotelwithInfiniteRooms](一星題/The_Hotel_with_Infinite_Rooms.cpp)||||
+|18|[10268](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1209)|[498bis](一星題/498_bis.cpp)||||
+|19|[10783](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=19&page=show_problem&problem=1724)|[OddSum](一星題/Odd_Sum.cpp)||||
+|20|[10812](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1753)|[BeattheSpread!](一星題/Beat_the_Spread.cpp)||||
 |21|[11349](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2324)|[SymmetricMatrix]||||
 |22|[11461](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2456)|[SquareNumbers]||||
 |23|[11063](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2004)|[B2-Sequence]||||
