@@ -59,9 +59,9 @@
 |24|[10071](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1012)|[BacktoHighSchoolPhysics](一星題/Back_to_High_School_Physics.cpp)||||
 |25|[10093](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1034)|[AnEasyProblem!](一星題/An_Easy_Problem.cpp)||||
 |26|[948](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=889)|[FibonaccimalBase](一星題/Fibonaccimal_Base.cpp)||||
-|27|[10019]|[FunnyEncryptionMethod]||||
-|28|[10931](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1872)|[Parity]||||
-|29|[11005](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)|[CheapestBase]||||
+|27|[10019](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=960)|[FunnyEncryptionMethod](一星題/Funny_Encryption_Method.cpp)||||
+|28|[10931](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1872)|[Parity](一星題/Parity.cpp)||||
+|29|[11005](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)|[CheapestBase](一星題/Cheapest_Base.cpp)||||
 |30|[10050](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=991)|[Hartals]||||
 |31|[10193](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1134)|[AllYouNeedIsLove!]||||
 |32|[10190](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1131)|[Divide,ButNotQuiteConquer!]||||
