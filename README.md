@@ -62,10 +62,10 @@
 |27|[10019](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=960)|[FunnyEncryptionMethod](一星題/Funny_Encryption_Method.cpp)||||
 |28|[10931](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1872)|[Parity](一星題/Parity.cpp)||||
 |29|[11005](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)|[CheapestBase](一星題/Cheapest_Base.cpp)||||
-|30|[10050](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=991)|[Hartals]||||
-|31|[10193](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1134)|[AllYouNeedIsLove!]||||
-|32|[10190](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1131)|[Divide,ButNotQuiteConquer!]||||
-|33|[10235](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1176)|[SimplyEmirp]||||
+|30|[10050](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=991)|[Hartals](一星題/Hartals.cpp)||||
+|31|[10193](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1134)|[AllYouNeedIsLove!](一星題/All_You_Need_Is_Love.cpp)||||
+|32|[10190](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1131)|[Divide,ButNotQuiteConquer!](一星題/Divide_But_Not_Quite_Conquer.cpp)||||
+|33|[10235](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1176)|[SimplyEmirp](一星題/Simply_Emirp.cpp)||||
 |34|[10922](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1863)|[2the9s]||||
 |35|[11417](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2412)|[GCD]||||
 |36|[10908](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849)|[LargestSquare]||||
