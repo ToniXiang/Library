@@ -1,31 +1,33 @@
 #include<iostream>
 using namespace std;
+typedef long long ll;
 int main() {
     ios_base::sync_with_stdio(false);
-    int n,n1;
-    char buf,buf1;
-    while(cin>>n){
-        int cnt=1;
-        while(n--){
-            cin>>buf>>buf1>>n1;
-            int mp[n1][n1]={0};
-            for(int i=0;i<n1;i++){
-                for(int j=0;j<n1;j++){
-                    cin>>mp[i][j];
-                }
+    int n,n1,cnt=1;
+    char buf;
+    cin>>n;
+    while(n--){
+        cin>>buf>>buf>>n1;
+        ll mp[n1][n1]={0};
+        string res="Symmetric.";
+        for(int i=0;i<n1;i++){
+            for(int j=0;j<n1;j++){
+                cin>>mp[i][j];
+                if(mp[i][j]<0)res="Non-symmetric.";
             }
-            string res="Symmetric.";
+        }
+        if(res=="Symmetric."){
             for(int i=0;i<n1;i++){
                 for(int j=0;j<n1;j++){
                     if(mp[i][j]!=mp[n1-1-i][n1-1-j]){
-                        res="Non-Symmetric.";
+                        res="Non-symmetric.";
                         i=n1;
                         break;
                     }
                 }
             }
-            cout<<"Test #"<<cnt++<<": "<<res<<endl;
         }
+        cout<<"Test #"<<cnt++<<": "<<res<<endl;
     }
     return 0;
 }

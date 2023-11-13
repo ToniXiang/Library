@@ -3,6 +3,12 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
+typedef pair<char,int> pci;
+bool cmp(const pci&a,const pci& b){
+    if(a.second>b.second)return true;
+    else if(a.second<b.second)return false;
+    return a.first<b.first;
+}
 int main() {
     ios_base::sync_with_stdio(false);
     int n;
@@ -17,8 +23,8 @@ int main() {
                 else if(it>='a'&&it<='z')mp[it-'a'+'A']++;
             }
         }
-        vector<pair<char,int>>res(mp.begin(),mp.end());
-        sort(res.begin(),res.end(),[](const auto&a,const auto&b){return a.second>b.second;});
+        vector<pci>res(mp.begin(),mp.end());
+        sort(res.begin(),res.end(),cmp);
         for(const auto&it:res){
             cout<<it.first<<" "<<it.second<<endl;
         }

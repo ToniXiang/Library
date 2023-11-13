@@ -12,7 +12,7 @@ int main() {
             for(int i=0;i<a-1;i++){
                 day+=months[i];
             }
-            cout<<days[day%7-1]<<endl;
+            cout<<days[(day%7!=0?day%7-1:(day-1)%7)]<<endl;
         }
     }
     return 0;

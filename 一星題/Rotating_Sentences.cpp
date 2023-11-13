@@ -1,15 +1,21 @@
 #include<iostream>
+#include<vector>
+#include<algorithm>
 using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
-    string a,b;
-    while(true){
-        getline(cin,a);
-        getline(cin,b);
-        int len=max(a.size(),b.size());
-        for(int i=0;i<len;i++){
-            cout<<(i<b.size()?b[i]:' ')<<(i<a.size()?a[i]:' ')<<endl;
+    vector<string>v;
+    string s;
+    int n=0;
+    while(getline(cin,s)&&s!=""){
+        v.push_back(s);
+        n=max((int)s.size(),n);
+    }
+    for(int i=0;i<n;i++){
+        for(int j=v.size()-1;j>=0;j--){
+            cout<<(i<v[j].size()?v[j][i]:' ');
         }
+        cout<<"\n";
     }
     return 0;
 }

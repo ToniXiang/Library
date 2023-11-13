@@ -1,25 +1,19 @@
 #include<iostream>
-#include<unordered_map>
+#include<vector>
 using namespace std;
 typedef long long ll;
-unordered_map<ll,string>mp={{14,"kuti"},{12,"lakh"},{10,"hajar"},
-{9,"shata"},{7,"kuti"},{5,"lakh"},{3,"hajar"},{2,"shata"}};
+vector<string>str={"shata","hajar","lakh","kuti"};
+vector<int>number={2,3,5,7,9,10,12,14};
 int main() {
     ios_base::sync_with_stdio(false);
-    string s;
+    ll n;
     int cnt=1;
-    while(cin>>s){
-        string base="",res="",buf="";
-        for(int i=0;i<s.size();i++){
-            if(mp.find(i)!=mp.end()){
-                res=" "+buf+" "+base+res;
-                buf="";
-                base=mp[i];
-            }
-            buf=s[s.size()-i-1]+buf;
+    string base="";
+    while(cin>>n){
+        while(n!=0){     
+            cnt++;
         }
-        if(buf!="")res=" "+buf+" "+base+res;
-        cout<<to_string(cnt++)+"."+res<<endl;
+        
     }
     return 0;
 }

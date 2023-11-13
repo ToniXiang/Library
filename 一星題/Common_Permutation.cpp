@@ -1,27 +1,25 @@
 #include<iostream>
-#include<unordered_map>
-#include<vector>
-#include<algorithm>
 using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
     string s,s1;
     while(cin>>s>>s1){
-        unordered_map<char,int>mp,mp1;
+        int num[26]={0};
+        int num1[26]={0};
         for(const char&it:s){
-            mp[it]++;
+            num[it-'a']++;
         }
         for(const char&it:s1){
-            mp1[it]++;
+            num1[it-'a']++;
         }
-        vector<pair<char,int>>v(mp.begin(),mp.end());
-        sort(v.begin(),v.end(),[](const auto&a,const auto&b){return a.second<b.second;});
-        string res="";
-        for(const auto&it:v){
-            string buf(min(it.second,mp1[it.first]),it.first);
-            res+=buf;
+        for(int i=0;i<26;i++){
+            int mn=min(num[i],num1[i]);
+            if(mn>0){
+                string buf(mn,(char)('a'+i));
+                cout<<buf;
+            }
         }
-        cout<<res<<endl;
+        cout<<"\n";
     }
     return 0;
 }
