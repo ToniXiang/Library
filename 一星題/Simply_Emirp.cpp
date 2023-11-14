@@ -20,8 +20,8 @@ int main() {
         else{
             ll n_rev=0,tmp=n;
             while(tmp>0){
-				n_rev=n_rev*10+tmp%10;
-				tmp/=10;
+                n_rev=n_rev*10+tmp%10;
+                tmp/=10;
 			}
             cout<<n<<((n!=n_rev&&check(n_rev))?" is emirp.":" is prime.")<<endl;
         }

@@ -66,10 +66,10 @@
 |31|[10193](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1134)|[AllYouNeedIsLove!](一星題/All_You_Need_Is_Love.cpp)||||
 |32|[10190](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1131)|[Divide,ButNotQuiteConquer!](一星題/Divide_But_Not_Quite_Conquer.cpp)||||
 |33|[10235](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1176)|[SimplyEmirp](一星題/Simply_Emirp.cpp)||||
-|34|[10922](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1863)|[2the9s]||||
-|35|[11417](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2412)|[GCD]||||
-|36|[10908](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849)|[LargestSquare]||||
-|37|[10221](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1162)|[Satellites]||||
+|34|[10922](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1863)|[2the9s](一星題/2_the_9s.cpp)||||
+|35|[11417](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2412)|[GCD](一星題/GCD.cpp)||||
+|36|[10908](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849)|[LargestSquare](一星題/Largest_Squares.cpp)||||
+|37|[10221](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1162)|[Satellites](一星題/Satellites.cpp)||||
 |38|[10642](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583)|[CanYouSolveIt?]||||
 |39|[10242](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1183)|[FourthPoint!!]||||
 |40|[10057](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=998)|[Amid-summernight’sdream]||||
