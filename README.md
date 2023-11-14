@@ -4,7 +4,7 @@
 |題號|編號&題目|資料結構|演算法|完成度|補充|
 |:--:|:------:|:-----:|:----:|:---:|:--:|
 |1|[11576:ScrollingSign](CPE/20231019CPE/11576Scrolling_Sign.cpp)|陣列、字串|字串合併|solved||
-|2|[10093:AnEasyProblem!](CPE/20231019CPE/10093An_Easy_Problem.cpp)|字串|數論|solved||
+|2|[10093:AnEasyProblem!](一星題/An_Easy_Problem.cpp)|字串|數論|solved||
 |3|[10161:AntonaChessboard](CPE/20231019CPE/10161Ant_on_a_Chessboard.cpp)||數論|unsolved||
 |4|[442:MatrixChainMultiplication](CPE/20231019CPE/442Matrix_Chain_Multiplication.cpp)|堆疊、陣列、無序字典|括號匹配|solved|矩陣鏈乘積|
 |5|1193:RadarInstallation|||||
@@ -14,7 +14,7 @@
 |題號|編號&題目|資料結構|演算法|完成度|補充|
 |:--:|:------:|:-----:|:----:|:---:|:--:|
 |1|[11934:MagicFormula](CPE/20230523CPE/11934Magic_Formula.cpp)||數論|solved||
-|2|[11349:SymmetricMatrix](CPE/20230523CPE/11349Symmetric_Matrix.cpp)|陣列||solved||
+|2|[11349:SymmetricMatrix](一星題/Symmetric_Matrix.cpp)|陣列||solved||
 |3|[834:ContinuedFractions](CPE/20230523CPE/834Continued_Fractions.cpp)||數論|solved||
 |4|[12455:Bars](CPE/20230523CPE/12455Bars.cpp)|陣列|動態規劃、子集和問題|solved||
 |5|[512:SpreadsheetTracking](CPE/20230523CPE/512Spreadsheet_Tracking.cpp)|陣列||solved||
@@ -23,7 +23,7 @@
 ### <p align="center">[20230321](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-03-21)</p>
 |題號|編號&題目|資料結構|演算法|完成度|補充|
 |:--:|:------:|:-----:|:----:|:---:|:--:|
-|1|[10035:PrimaryArithmetic](CPE/20230321CPE/10035Primary_Arithmetic.cpp)|||solved||
+|1|[10035:PrimaryArithmetic](一星題/Primary_Arithmetic.cpp)|||solved||
 |2|[11824:AMinimumLandPrice](CPE/20230321CPE/11824A_Minimum_Land_Price.cpp)|||solved||
 |3|[13055:Inception](CPE/20230321CPE/13055Inception.cpp)|||solved||
 |4|[11240:Antimonotonicity](CPE/20230321CPE/11240Antimonotonicity.cpp)|||solved||

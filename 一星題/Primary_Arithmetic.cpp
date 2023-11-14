@@ -14,7 +14,8 @@ int main() {
             a/=10;
             b/=10;
         }
-        cout<<(res==0?"No":to_string(res))<<" carry operations."<<endl;
+        if(res==0)cout<<"No carry operation."<<endl;
+        else cout<<(res==1?"1 carry operation.":to_string(res)+" carry operations.")<<endl;
     }
     return 0;
 }
