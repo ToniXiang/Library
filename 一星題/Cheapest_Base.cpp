@@ -5,7 +5,7 @@ int main() {
     ios_base::sync_with_stdio(false);
     int n,n1;
     ll a,b;
-    int base[36];
+    int base[36]={0};
     cin>>n;
     for(int i=1;i<=n;i++){
         cout<<"Case "<<i<<endl;

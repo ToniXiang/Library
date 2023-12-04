@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 typedef long long ll;
-int getc(char ch){
+int cmap(char ch){
     if(ch>='a'&&ch<='z')return ch-'a'+36;
     else if(ch>='A'&&ch<='Z')return ch-'A'+10;
     else if(ch>='0'&&ch<='9')return ch-'0';
@@ -14,7 +14,7 @@ int main() {
         int base=0;
         ll sum=0;
         for(const char&it:s){
-            const int val=getc(it);
+            const int val=cmap(it);
             sum+=val;
             base=max(base,val);
         }
