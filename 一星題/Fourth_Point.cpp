@@ -9,7 +9,6 @@ typedef pair<double,double> pdd;
 typedef pair<pair<double,double>,int> ppddi;
 #define f(xx) xx.first
 #define s(yy) yy.second
-#define r(zz) static_cast<int>(zz * 1E3)/1E3
 int main() {
     ios_base::sync_with_stdio(false);
     double x,y;
@@ -23,11 +22,14 @@ int main() {
         vector<ppddi>v_sort(mp.begin(),mp.end());
         sort(v_sort.begin(),v_sort.end(),[](const ppddi& a,const ppddi& b){return s(a)>s(b);});
         pdd a=f(v_sort[0]),b=f(v_sort[1]),c=f(v_sort[2]);
-        float center_x = (f(b) + f(c)) / 2.0f;
-		float center_y = (s(b) + s(c)) / 2.0f;
-        float res_x=f(a) + (center_x - f(a)) * 2.0f;
-        float res_y=s(a) + (center_y - s(a)) * 2.0f;
-        cout<<fixed<<setprecision(3)<<r(res_x)<<" "<<r(res_y)<<endl;
+        double total_x=f(a)*2+f(b)+f(c);
+        double total_y=s(a)*2+s(b)+s(c);
+        double res_x=total_x-3*f(a);
+        double res_y=total_y-3*s(a);
+        cout<<fixed<<setprecision(3)<<res_x<<" "<<res_y<<endl;
     }
     return 0;
 }
+//公式：不是重複的點(b)+另一個不是重複的點(c)=重複的點(a)+要求的點(res)
+//公式：不是重複的點(b)+另一個不是重複的點(c)+[重複的點(a)*2]=重複的點(a)+要求的點(res)+[重複的點(a)*2]
+//公式：要求的點=2*重複的點(a)+不是重複的點(b)+另一個不是重複的點(c)-3*重複的點(a)
