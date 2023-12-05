@@ -10,7 +10,7 @@ int main() {
         cin>>x>>y>>x1>>y1;
         ll start=x+y;
         ll end=x1+y1;
-        ll total=((start+1)+end)*(end-start)/2;
+        ll total=((1+end)*end/2+x1)-((1+start)*start/2+x);
         cout<<"Case "<<i<<": "<<total<<endl;
     }
     return 0;

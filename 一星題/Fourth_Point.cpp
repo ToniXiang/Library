@@ -1,31 +1,33 @@
 #include<iostream>
-#include<unordered_map>
+#include<map>
 #include<algorithm>
 #include<vector>
+#include<cmath>
 #include<iomanip>
 using namespace std;
-typedef pair<double,int> pdi;
-bool tmp(const pdi&a,const pdi& b){
-    return a.second>b.second;
-}
+typedef pair<double,double> pdd;
+typedef pair<pair<double,double>,int> ppddi;
+#define f(xx) xx.first
+#define s(yy) yy.second
+#define r(zz) static_cast<int>(zz * 1E3)/1E3
 int main() {
     ios_base::sync_with_stdio(false);
     double x,y;
     while(cin>>x>>y){
-        unordered_map<double,int>mp_x;
-        unordered_map<double,int>mp_y;
-        mp_x[x]++;
-        mp_y[y]++;
+        map<pdd,int>mp;
+        mp[make_pair(x,y)]++;
         for(int i=1;i<4;i++){
             cin>>x>>y;
-            mp_x[x]++;
-            mp_y[y]++;
+            mp[make_pair(x,y)]++;
         }
-        vector<pdi>res_x(mp_x.begin(),mp_x.end());
-        sort(res_x.begin(),res_x.end(),tmp); 
-        vector<pdi>res_y(mp_y.begin(),mp_y.end());
-        sort(res_y.begin(),res_y.end(),tmp);
-        cout<<fixed<<setprecision(3)<<res_x[0].first<<" "<<res_y[0].first<<endl;
+        vector<ppddi>v_sort(mp.begin(),mp.end());
+        sort(v_sort.begin(),v_sort.end(),[](const ppddi& a,const ppddi& b){return s(a)>s(b);});
+        pdd a=f(v_sort[0]),b=f(v_sort[1]),c=f(v_sort[2]);
+        float center_x = (f(b) + f(c)) / 2.0f;
+		float center_y = (s(b) + s(c)) / 2.0f;
+        float res_x=f(a) + (center_x - f(a)) * 2.0f;
+        float res_y=s(a) + (center_y - s(a)) * 2.0f;
+        cout<<fixed<<setprecision(3)<<r(res_x)<<" "<<r(res_y)<<endl;
     }
     return 0;
 }
