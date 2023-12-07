@@ -26,3 +26,6 @@ int main() {
     }
     return 0;
 }
+//這題的思路是，先把輸入的數據存到vector中，然後再進行操作
+//操作的時候，先把vector排序，然後再判斷是否是jolly jumper
+//如果不是，就輸出Not jolly，否則輸出Jolly
