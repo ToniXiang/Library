@@ -1,4 +1,17 @@
 # 個人程式解題庫
+這是我的個人程式解題庫，包含了我自2023年以來解決的CPE題目。每個題目都有對應的程式碼，並且包含了使用的資料結構、演算法，以及我對題目的完成度和補充說明。
+
+## 目錄結構
+
+每個題目都在其對應的日期資料夾中，例如`20231019`資料夾包含了2023年10月19日的題目。每個題目的程式碼都在一個`.cpp`檔案中，檔案名稱是題目的編號和名稱。
+
+## 如何使用這個庫
+
+你可以直接瀏覽這個庫來查看我解決的題目，或者下載庫來在你自己的電腦上運行程式碼。如果你有任何問題或者建議，請隨時提出。
+
+## 貢獻
+
+雖然這是我的個人程式解題庫，但我非常歡迎其他人的貢獻。如果你有任何改進的建議，或者你想添加你自己解決的題目，請隨時提出pull request。
 ## CPE題目 since 2023
 ### <p align="center">[20231019](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-10-17)</p>
 |題號|編號&題目|資料結構|演算法|完成度|補充|
@@ -82,5 +95,3 @@
 |47|[118](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)|[MutantFlatworldExplorers](一星題/)||||
 |48|[11150](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)|[Cola](一星題/)||||
 |49|[11321](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2296)|[Sort!Sort!!andSort!!!](一星題/)||||
-## 資訊能力競賽題
-
