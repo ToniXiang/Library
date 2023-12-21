@@ -14,48 +14,48 @@
 雖然這是我的個人程式解題庫，但我非常歡迎其他人的貢獻。如果你有任何改進的建議，或者你想添加你自己解決的題目，請隨時提出pull request。
 ## CPE題目 since 2023
 ### <p align="center">[20231019](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-10-17)</p>
-|題號|編號&題目|資料結構|演算法|完成度|補充|
-|:--:|:------:|:-----:|:----:|:---:|:--:|
-|1|[11576:ScrollingSign](CPE/20231019CPE/11576Scrolling_Sign.cpp)|陣列、字串|字串合併|solved||
-|2|[10093:AnEasyProblem!](一星題/An_Easy_Problem.cpp)|字串|數論|solved||
-|3|[10161:AntonaChessboard](CPE/20231019CPE/10161Ant_on_a_Chessboard.cpp)||數論|unsolved||
-|4|[442:MatrixChainMultiplication](CPE/20231019CPE/442Matrix_Chain_Multiplication.cpp)|堆疊、陣列、無序字典|括號匹配|solved|矩陣鏈乘積|
-|5|1193:RadarInstallation|||||
-|6|10672:Marblesonatree|||||
-|7|11175:FromDtoEandBack|||||
+|題號|編號&題目|完成度|補充|
+|:--:|:------:|:---:|:--:|
+|1|[11576:ScrollingSign](CPE/20231019CPE/11576Scrolling_Sign.cpp)|solved||
+|2|[10093:AnEasyProblem!](一星題/An_Easy_Problem.cpp)|solved||
+|3|[10161:AntonaChessboard](CPE/20231019CPE/10161Ant_on_a_Chessboard.cpp)|unsolved||
+|4|[442:MatrixChainMultiplication](CPE/20231019CPE/442Matrix_Chain_Multiplication.cpp)|solved|矩陣鏈乘積|
+|5|1193:RadarInstallation|||
+|6|10672:Marblesonatree|||
+|7|11175:FromDtoEandBack|||
 ### <p align="center">[20230523](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-05-23)</p>
-|題號|編號&題目|資料結構|演算法|完成度|補充|
-|:--:|:------:|:-----:|:----:|:---:|:--:|
-|1|[11934:MagicFormula](CPE/20230523CPE/11934Magic_Formula.cpp)||數論|solved||
-|2|[11349:SymmetricMatrix](一星題/Symmetric_Matrix.cpp)|陣列||solved||
-|3|[834:ContinuedFractions](CPE/20230523CPE/834Continued_Fractions.cpp)||數論|solved||
-|4|[12455:Bars](CPE/20230523CPE/12455Bars.cpp)|陣列|動態規劃、子集和問題|solved||
-|5|[512:SpreadsheetTracking](CPE/20230523CPE/512Spreadsheet_Tracking.cpp)|陣列||solved||
-|6|828:DecipheringMessages|||||
-|7|828:DecipheringMessages|||||
+|題號|編號&題目|完成度|補充|
+|:--:|:------:|:---:|:--:|
+|1|[11934:MagicFormula](CPE/20230523CPE/11934Magic_Formula.cpp)|solved||
+|2|[11349:SymmetricMatrix](一星題/Symmetric_Matrix.cpp)|solved||
+|3|[834:ContinuedFractions](CPE/20230523CPE/834Continued_Fractions.cpp)|solved||
+|4|[12455:Bars](CPE/20230523CPE/12455Bars.cpp)|solved||
+|5|[512:SpreadsheetTracking](CPE/20230523CPE/512Spreadsheet_Tracking.cpp)|solved||
+|6|828:DecipheringMessages|||
+|7|828:DecipheringMessages|||
 ### <p align="center">[20230321](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-03-21)</p>
-|題號|編號&題目|資料結構|演算法|完成度|補充|
-|:--:|:------:|:-----:|:----:|:---:|:--:|
-|1|[10035:PrimaryArithmetic](一星題/Primary_Arithmetic.cpp)|||solved||
-|2|[11824:AMinimumLandPrice](CPE/20230321CPE/11824A_Minimum_Land_Price.cpp)|||solved||
-|3|[13055:Inception](CPE/20230321CPE/13055Inception.cpp)|||solved||
-|4|[11240:Antimonotonicity](CPE/20230321CPE/11240Antimonotonicity.cpp)|||solved||
-|5|[160:FactorsandFactorials](CPE/20230321CPE/60Factors_and_Factorials.cpp)|||solved||
-|6|1366:MartianMining|||||
-|7|11624:Fire!|||||
+|題號|編號&題目|完成度|補充|
+|:--:|:------:|:---:|:--:|
+|1|[10035:PrimaryArithmetic](一星題/Primary_Arithmetic.cpp)|solved||
+|2|[11824:AMinimumLandPrice](CPE/20230321CPE/11824A_Minimum_Land_Price.cpp)|solved||
+|3|[13055:Inception](CPE/20230321CPE/13055Inception.cpp)|solved||
+|4|[11240:Antimonotonicity](CPE/20230321CPE/11240Antimonotonicity.cpp)|solved||
+|5|[160:FactorsandFactorials](CPE/20230321CPE/60Factors_and_Factorials.cpp)|solved||
+|6|1366:MartianMining|||
+|7|11624:Fire!|||
 ## CPE一顆星選集
-||UVA編號|題目|演算法|補充|
-|:-:|:-:|:-:|:-:|:-:|
-|1|[10041](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=982)|[Vito's family](一星題/Vito_s_family.cpp)|||
-|2|[10055](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=996)|[Hashmat the Brave Warrior](一星題/Hashmat_the_Brave_Warrior.cpp)|||
-|3|[10035](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=976)|[Primary Arithmetic](一星題/Primary_Arithmetic.cpp)|||
-|4|[100](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=36)|[The 3n+1 problem](一星題/The_3n_1_problem.cpp)||||
-|5|[10929](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=21&page=show_problem&problem=1870)|[You can say 11](一星題/You_can_say_11.cpp)||||
-|6|[10101](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1042)|[Bangla Numbers](一星題/Bangla_Numbers.cpp)||||
-|7|[10420](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361)|[List of Conquests](一星題/List_of_Conquests.cpp)||||
-|8|[10008](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=949)|[What's Cryptanalysis?](一星題/What_s_Cryptanalysis.cpp)||||
-|9|[10222](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1163)|[Decode the Madman](一星題/Decode_the_Mad_man.cpp)||||
-|10|[11332](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2307)|[Summing Digits](一星題/Summing_Digits.cpp)||||
+||UVA編號|題目|補充|
+|:-:|:-:|:-:|:-:|
+|1|[10041](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=982)|[Vito's family](一星題/Vito_s_family.cpp)||
+|2|[10055](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=996)|[Hashmat the Brave Warrior](一星題/Hashmat_the_Brave_Warrior.cpp)||
+|3|[10035](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=976)|[Primary Arithmetic](一星題/Primary_Arithmetic.cpp)||
+|4|[100](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=36)|[The 3n+1 problem](一星題/The_3n_1_problem.cpp)|||
+|5|[10929](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=21&page=show_problem&problem=1870)|[You can say 11](一星題/You_can_say_11.cpp)|||
+|6|[10101](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1042)|[Bangla Numbers](一星題/Bangla_Numbers.cpp)|||
+|7|[10420](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=16&page=show_problem&problem=1361)|[List of Conquests](一星題/List_of_Conquests.cpp)|||
+|8|[10008](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=949)|[What's Cryptanalysis?](一星題/What_s_Cryptanalysis.cpp)|||
+|9|[10222](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1163)|[Decode the Madman](一星題/Decode_the_Mad_man.cpp)|||
+|10|[11332](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2307)|[Summing Digits](一星題/Summing_Digits.cpp)|||
 |11|[10252](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1193)|[Common Permutation](一星題/Common_Permutation.cpp)||||
 |12|[490](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=431)|[Rotating Sentences](一星題/Rotating_Sentences.cpp)||||
 |13|[272](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208)|[TeX Quotes](一星題/TeX_Quotes.cpp)||||
@@ -82,16 +82,16 @@
 |34|[10922](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1863)|[2 the 9s](一星題/2_the_9s.cpp)||||
 |35|[11417](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2412)|[GCD](一星題/GCD.cpp)||||
 |36|[10908](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849)|[Largest Square](一星題/Largest_Squares.cpp)||||
-|37|[10221](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1162)|[Satellites](一星題/Satellites.cpp)||||
-|38|[10642](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583)|[Can You Solve It?](一星題/Can_You_Solve_It.cpp)||||
-|39|[10242](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1183)|[Fourth Point!!](一星題/Fourth_Point.cpp)||||
-|40|[10057](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=998)|[A mid-summer night’s dream](一星題/A_mid_summer_night_s_dream.cpp)||||
-|41|[10062](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1003)|[Tell me the frequencies!](一星題/)||||
-|42|[299](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=235)|[Train Swapping](一星題/)||||
-|43|[10226](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1167)|[Hard wood Species](一星題/)||||
-|44|[10189](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130)|[Minesweeper](一星題/)||||
-|45|[10409](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350)|[Die Game](一星題/)||||
-|46|[10415](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356)|[Eb Alto Saxophone Player](一星題/)||||
-|47|[118](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)|[Mutant Flatworld Explorers](一星題/)||||
-|48|[11150](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)|[Cola](一星題/)||||
-|49|[11321](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2296)|[Sort!Sort!!andSort!!!](一星題/)||||
+|37|[10221](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1162)|[Satellites](一星題/Satellites.cpp)|||
+|38|[10642](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583)|[Can You Solve It?](一星題/Can_You_Solve_It.cpp)|||
+|39|[10242](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1183)|[Fourth Point!!](一星題/Fourth_Point.cpp)|||
+|40|[10057](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=998)|[A mid-summer night’s dream](一星題/A_mid_summer_night_s_dream.cpp)|||
+|41|[10062](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1003)|[Tell me the frequencies!](一星題/)|||
+|42|[299](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=235)|[Train Swapping](一星題/)|||
+|43|[10226](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1167)|[Hard wood Species](一星題/)|||
+|44|[10189](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130)|[Minesweeper](一星題/)|||
+|45|[10409](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350)|[Die Game](一星題/)|||
+|46|[10415](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356)|[Eb Alto Saxophone Player](一星題/)|||
+|47|[118](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)|[Mutant Flatworld Explorers](一星題/)|||
+|48|[11150](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)|[Cola](一星題/)|||
+|49|[11321](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2296)|[Sort!Sort!!andSort!!!](一星題/)|||
