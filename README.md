@@ -1,49 +1,18 @@
-# 個人程式解題庫
+# <p align="center">個人程式解題庫</p>
 這是我的個人程式解題庫，包含了我自2023年以來解決的CPE題目。每個題目都有對應的程式碼，並且包含了使用的資料結構、演算法，以及我對題目的完成度和補充說明。
 
-## 目錄結構
+## <p align="center">目錄結構</p>
 
 每個題目都在其對應的日期資料夾中，例如`20231019`資料夾包含了2023年10月19日的題目。每個題目的程式碼都在一個`.cpp`檔案中，檔案名稱是題目的編號和名稱。
 
-## 如何使用這個庫
+## <p align="center">如何使用這個庫</p>
 
 你可以直接瀏覽這個庫來查看我解決的題目，或者下載庫來在你自己的電腦上運行程式碼。如果你有任何問題或者建議，請隨時提出。
 
-## 貢獻
+## <p align="center">貢獻</p>
 
 雖然這是我的個人程式解題庫，但我非常歡迎其他人的貢獻。如果你有任何改進的建議，或者你想添加你自己解決的題目，請隨時提出pull request。
-## CPE題目 since 2023
-### <p align="center">[20231019](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-10-17)</p>
-|題號|編號&題目|完成度|補充|
-|:--:|:------:|:---:|:--:|
-|1|[11576:ScrollingSign](CPE/20231019CPE/11576Scrolling_Sign.cpp)|solved||
-|2|[10093:AnEasyProblem!](一星題/An_Easy_Problem.cpp)|solved||
-|3|[10161:AntonaChessboard](CPE/20231019CPE/10161Ant_on_a_Chessboard.cpp)|unsolved||
-|4|[442:MatrixChainMultiplication](CPE/20231019CPE/442Matrix_Chain_Multiplication.cpp)|solved|矩陣鏈乘積|
-|5|1193:RadarInstallation|||
-|6|10672:Marblesonatree|||
-|7|11175:FromDtoEandBack|||
-### <p align="center">[20230523](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-05-23)</p>
-|題號|編號&題目|完成度|補充|
-|:--:|:------:|:---:|:--:|
-|1|[11934:MagicFormula](CPE/20230523CPE/11934Magic_Formula.cpp)|solved||
-|2|[11349:SymmetricMatrix](一星題/Symmetric_Matrix.cpp)|solved||
-|3|[834:ContinuedFractions](CPE/20230523CPE/834Continued_Fractions.cpp)|solved||
-|4|[12455:Bars](CPE/20230523CPE/12455Bars.cpp)|solved||
-|5|[512:SpreadsheetTracking](CPE/20230523CPE/512Spreadsheet_Tracking.cpp)|solved||
-|6|828:DecipheringMessages|||
-|7|828:DecipheringMessages|||
-### <p align="center">[20230321](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-03-21)</p>
-|題號|編號&題目|完成度|補充|
-|:--:|:------:|:---:|:--:|
-|1|[10035:PrimaryArithmetic](一星題/Primary_Arithmetic.cpp)|solved||
-|2|[11824:AMinimumLandPrice](CPE/20230321CPE/11824A_Minimum_Land_Price.cpp)|solved||
-|3|[13055:Inception](CPE/20230321CPE/13055Inception.cpp)|solved||
-|4|[11240:Antimonotonicity](CPE/20230321CPE/11240Antimonotonicity.cpp)|solved||
-|5|[160:FactorsandFactorials](CPE/20230321CPE/60Factors_and_Factorials.cpp)|solved||
-|6|1366:MartianMining|||
-|7|11624:Fire!|||
-## CPE一顆星選集
+## <p align="center">CPE 一顆星</p>
 ||UVA編號|題目|補充|
 |:-:|:-:|:-:|:-:|
 |1|[10041](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=982)|[Vito's family](一星題/Vito_s_family.cpp)||
@@ -86,12 +55,43 @@
 |38|[10642](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583)|[Can You Solve It?](一星題/Can_You_Solve_It.cpp)|||
 |39|[10242](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1183)|[Fourth Point!!](一星題/Fourth_Point.cpp)|||
 |40|[10057](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=998)|[A mid-summer night’s dream](一星題/A_mid_summer_night_s_dream.cpp)|||
-|41|[10062](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1003)|[Tell me the frequencies!](一星題/)|||
-|42|[299](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=235)|[Train Swapping](一星題/)|||
-|43|[10226](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1167)|[Hard wood Species](一星題/)|||
-|44|[10189](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130)|[Minesweeper](一星題/)|||
-|45|[10409](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350)|[Die Game](一星題/)|||
-|46|[10415](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356)|[Eb Alto Saxophone Player](一星題/)|||
-|47|[118](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)|[Mutant Flatworld Explorers](一星題/)|||
-|48|[11150](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)|[Cola](一星題/)|||
-|49|[11321](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2296)|[Sort!Sort!!andSort!!!](一星題/)|||
+|41|[10062](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1003)|[Tell me the frequencies!](一星題/Tell_me_the_frequencies.cpp)|||
+|42|[299](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=235)|[Train Swapping](一星題/Train_Swapping.cpp)|||
+|43|[10226](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1167)|[Hardwood Species](一星題/Hardwood_Species.cpp)|||
+|44|[10189](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130)|[Minesweeper](一星題/Minesweeper.cpp)|||
+|45|[10409](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350)|[Die Game](一星題/Die_Game.cpp)|||
+|46|[10415](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356)|[Eb Alto Saxophone Player](一星題/Eb_Alto_Saxophone_Player.cpp)|||
+|47|[118](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)|[Mutant Flatworld Explorers](一星題/Mutant_Flatworld_Explorers.cpp)|||
+|48|[11150](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)|[Cola](一星題/Cola.cpp)|||
+|49|[11321](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2296)|[Sort!Sort!!andSort!!!](一星題/Sort_Sort_andSort.cpp)|||
+## <p align="center">CPE 題目 since 2023</p>
+### <p align="center">[20231019](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-10-17)</p>
+|題號|編號&題目|完成度|補充|
+|:--:|:------:|:---:|:--:|
+|1|[11576:ScrollingSign](CPE/20231019CPE/11576Scrolling_Sign.cpp)|solved||
+|2|[10093:AnEasyProblem!](一星題/An_Easy_Problem.cpp)|solved||
+|3|[10161:AntonaChessboard](CPE/20231019CPE/10161Ant_on_a_Chessboard.cpp)|unsolved||
+|4|[442:MatrixChainMultiplication](CPE/20231019CPE/442Matrix_Chain_Multiplication.cpp)|solved|矩陣鏈乘積|
+|5|1193:RadarInstallation|||
+|6|10672:Marblesonatree|||
+|7|11175:FromDtoEandBack|||
+### <p align="center">[20230523](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-05-23)</p>
+|題號|編號&題目|完成度|補充|
+|:--:|:------:|:---:|:--:|
+|1|[11934:MagicFormula](CPE/20230523CPE/11934Magic_Formula.cpp)|solved||
+|2|[11349:SymmetricMatrix](一星題/Symmetric_Matrix.cpp)|solved||
+|3|[834:ContinuedFractions](CPE/20230523CPE/834Continued_Fractions.cpp)|solved||
+|4|[12455:Bars](CPE/20230523CPE/12455Bars.cpp)|solved||
+|5|[512:SpreadsheetTracking](CPE/20230523CPE/512Spreadsheet_Tracking.cpp)|solved||
+|6|828:DecipheringMessages|||
+|7|828:DecipheringMessages|||
+### <p align="center">[20230321](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-03-21)</p>
+|題號|編號&題目|完成度|補充|
+|:--:|:------:|:---:|:--:|
+|1|[10035:PrimaryArithmetic](一星題/Primary_Arithmetic.cpp)|solved||
+|2|[11824:AMinimumLandPrice](CPE/20230321CPE/11824A_Minimum_Land_Price.cpp)|solved||
+|3|[13055:Inception](CPE/20230321CPE/13055Inception.cpp)|solved||
+|4|[11240:Antimonotonicity](CPE/20230321CPE/11240Antimonotonicity.cpp)|solved||
+|5|[160:FactorsandFactorials](CPE/20230321CPE/60Factors_and_Factorials.cpp)|solved||
+|6|1366:MartianMining|||
+|7|11624:Fire!|||
