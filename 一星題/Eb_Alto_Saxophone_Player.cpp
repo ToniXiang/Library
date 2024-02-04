@@ -1,43 +1,56 @@
-#include<iostream>
-#include<unordered_map>
-#include<vector>
+#include <iostream>
+#include <map>
 using namespace std;
-int main() {
+typedef long long ll;
+int main()
+{
     ios_base::sync_with_stdio(false);
-    unordered_map<char, vector<int>> mp;
-    mp['c'] = {0,0,1,1,1,0,0,1,1,1,1};
-    mp['d'] = {0,0,1,1,1,0,0,1,1,1,0};
-    mp['e'] = {0,0,1,1,1,0,0,1,1,0,0};
-    mp['f'] = {0,0,1,1,1,0,0,1,0,0,0};
-    mp['g'] = {0,0,1,1,1,0,0,0,0,0,0};
-    mp['a'] = {0,0,1,1,0,0,0,0,0,0,0};
-    mp['b'] = {0,0,1,0,0,0,0,0,0,0,0};
-    mp['C'] = {0,0,0,1,0,0,0,0,0,0,0};
-    mp['D'] = {0,1,1,1,1,0,0,1,1,1,0};
-    mp['E'] = {0,1,1,1,1,0,0,1,1,0,0};
-    mp['F'] = {0,1,1,1,1,0,0,1,0,0,0};
-    mp['G'] = {0,1,1,1,1,0,0,0,0,0,0};
-    mp['A'] = {0,1,1,1,0,0,0,0,0,0,0};
-    mp['B'] = {0,1,1,0,0,0,0,0,0,0,0};
+    cin.tie(NULL);
+    map<char, ll> mp;
+    mp['c'] = 0b0111001111;
+    mp['d'] = 0b0111001110;
+    mp['e'] = 0b0111001100;
+    mp['f'] = 0b0111001000;
+    mp['g'] = 0b0111000000;
+    mp['a'] = 0b0110000000;
+    mp['b'] = 0b0100000000;
+    mp['C'] = 0b0010000000;
+    mp['D'] = 0b1111001110;
+    mp['E'] = 0b1111001100;
+    mp['F'] = 0b1111001000;
+    mp['G'] = 0b1111000000;
+    mp['A'] = 0b1110000000;
+    mp['B'] = 0b1100000000;
     int n;
+    string s;
     cin >> n;
-    while(n--){
-        //uva 10415
-        string s;
-        cin >> s;
-        int finger[11];
-        for(int i=0;i<=10;i++) finger[i] = mp[s[0]][i];
+    cin.ignore();
+    while (n--)
+    {
+        getline(cin, s);
+        ll prev = mp[s[0]], finger[10] = {0};
+        for(int i=0;i<10;i++){
+            finger[i]=prev&0b1;
+            prev >>= 1;
+        }
+        prev=mp[s[0]];
         for(int i=1;i<s.size();i++){
-            for(int j=1;j<=10;j++){
-                if(mp[s[i]][j]&&!(mp[s[i-1]][j])){
+            ll curr = mp[s[i]];
+            for(int j=0;j<10;j++){
+                if (!(prev & 0b1) && (curr & 0b1))
+                {
                     finger[j]++;
                 }
+                curr >>= 1;
+                prev >>= 1;
             }
+            prev = mp[s[i]];
         }
-        for(int i=1;i<=10;i++){
-            cout << finger[i] << " ";
+        for (int i = 0; i < 10; i++)
+        {
+            cout << finger[9-i] << " ";
         }
-        cout << endl;
+        cout << '\n';
     }
     return 0;
 }

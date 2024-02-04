@@ -11,7 +11,7 @@
 
 ## <p align="center">貢獻</p>
 
-雖然這是我的個人程式解題庫，但我非常歡迎其他人的貢獻。如果你有任何改進的建議，或者你想添加你自己解決的題目，請隨時提出pull request。
+雖然這是我的個人程式解題庫，但我非常歡迎其他人的貢獻。如果你有任何改進的建議，或者你想添加你自己解決的題目，請隨時提出 pull request。
 ## <p align="center">CPE 一顆星</p>
 ||UVA編號|題目|補充|
 |:-:|:-:|:-:|:-:|
@@ -70,7 +70,7 @@
 |:--:|:------:|:---:|:--:|
 |1|[11576:ScrollingSign](CPE/20231019CPE/11576Scrolling_Sign.cpp)|solved||
 |2|[10093:AnEasyProblem!](一星題/An_Easy_Problem.cpp)|solved||
-|3|[10161:AntonaChessboard](CPE/20231019CPE/10161Ant_on_a_Chessboard.cpp)|unsolved||
+|3|[10161:AntonaChessboard](CPE/20231019CPE/10161Ant_on_a_Chessboard.cpp)|solved||
 |4|[442:MatrixChainMultiplication](CPE/20231019CPE/442Matrix_Chain_Multiplication.cpp)|solved|矩陣鏈乘積|
 |5|1193:RadarInstallation|||
 |6|10672:Marblesonatree|||

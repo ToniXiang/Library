@@ -1,50 +1,42 @@
 #include<iostream>
-#include<unordered_map>
+#include<string>
 using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
-    int n,tmp;
+    cin.tie(NULL); // untie cin and cout
+    int n, tmp, pos[7];
     string s;
-    while(cin>>n&&n!=0){
-        unordered_map<string,int>mp;
-        mp["top"] = 1;
-        mp["north"] = 2;
-        mp["west"] = 3;
-        mp["east"] = 4;
-        mp["south"] = 5;
-        mp["bottom"] = 6;
-        while(n--){
-            cin>>s;
-            if(s=="north"){             //北轉
-                tmp=mp["north"];        //北>底 底>南  南>頂  頂>北
-                mp["north"]=mp["top"];  //記：北 <-> 南
-                mp["top"]=mp["south"];
-                mp["south"]=mp["bottom"];
-                mp["bottom"]=tmp;
-            }
-            else if(s=="east"){         //東轉
-                tmp=mp["east"];         //東>底 底>西  西>頂  頂>東
-                mp["east"]=mp["top"];   //記：東 <-> 西
-                mp["top"]=mp["west"];
-                mp["west"]=mp["bottom"];
-                mp["bottom"]=tmp;
-            }
-            else if(s=="south"){        //南轉
-                tmp=mp["south"];        //南>底 底>北  北>頂  頂>南
-                mp["south"]=mp["top"];  //記：南 <-> 北
-                mp["top"]=mp["north"];
-                mp["north"]=mp["bottom"];
-                mp["bottom"]=tmp;
-            }
-            else if(s=="west"){         //西轉
-                tmp=mp["west"];         //西>底 底>東  東>頂  頂>西
-                mp["west"]=mp["top"];   //記：西 <-> 東
-                mp["top"]=mp["east"];
-                mp["east"]=mp["bottom"];
-                mp["bottom"]=tmp;
+    while(cin >> n && n != 0) {
+        for(int i = 1; i <= 6; i++) pos[i] = i;
+        while(n--) {
+            cin >> s;
+            if(s == "north") {
+                tmp = pos[2];
+                pos[2] = pos[1];//北轉
+                pos[1] = pos[5];//北>底 底>南  南>頂  頂>北
+                pos[5] = pos[6];//記：北 <-> 南
+                pos[6] = tmp;
+            } else if(s == "east") {
+                tmp = pos[4];
+                pos[4] = pos[1];//東轉
+                pos[1] = pos[3];//東>底 底>西  西>頂  頂>東
+                pos[3] = pos[6];//記：東 <-> 西
+                pos[6] = tmp;
+            } else if(s == "south") {
+                tmp = pos[5];
+                pos[5] = pos[1];//南轉
+                pos[1] = pos[2];//南>底 底>北  北>頂  頂>南
+                pos[2] = pos[6];//記：南 <-> 北
+                pos[6] = tmp;
+            } else if(s == "west") {
+                tmp = pos[3];
+                pos[3] = pos[1];//西轉
+                pos[1] = pos[4];//西>底 底>東  東>頂  頂>西
+                pos[4] = pos[6];//記：西 <-> 東
+                pos[6] = tmp;
             }
         }
-        cout<<mp["top"]<<endl;
+        cout << pos[1] << '\n';
     }
     return 0;
 }

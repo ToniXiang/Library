@@ -5,8 +5,7 @@ using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
     int n;
-    cin>>n;
-    cin.ignore();
+    cin>>n>>ws;
     while(n--){
         map<string,int> m;
         string s;
