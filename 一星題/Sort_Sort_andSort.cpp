@@ -19,10 +19,10 @@ int main() {
     while(cin >> N >> M) {
         cout << N << " " << M << "\n";
         if(N == 0 && M == 0) break;
-        vector<Data> v(N);
-        for(auto &i : v) {
+        vector<Data> v;
+        while(N--){
             cin >> temp;
-            i = {temp, temp % M, temp & 0x1};
+            v.push_back({temp, temp % M, temp & 0x1});
         }
         sort(v.begin(), v.end(), cmp);
         for(auto &i : v) cout << i.num << "\n";
