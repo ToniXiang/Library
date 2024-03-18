@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 typedef long long ll;
-vector<ll>num={1,1};
+vector<ll>num={1,1};// smaller than 1E8 have 40 fib numbers
 int bs(int left,int right,ll key){
     if(left>right)return right;
     int mid=left+(right-left)/2;

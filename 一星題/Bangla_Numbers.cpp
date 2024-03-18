@@ -30,3 +30,12 @@ int main() {
     }
     return 0;
 }
+// 1E2 shata
+// 1E3 hajar
+// 1E5 lakh
+// 1E7 kuti
+// 1E9 shata (kuti)
+// 1E10 hajar (kuti)
+// 1E12 lakh (kuti)
+// 1E14 kuti (kuti)
+// 1. 9 kuti 99 lakh 99 hajar 9 shata 99 kuti 99 lakh 99 hajar 9 shata 99

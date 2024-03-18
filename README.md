@@ -30,7 +30,7 @@
 |13|[272](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=4&page=show_problem&problem=208)|[TeX Quotes](一星題/TeX_Quotes.cpp)||||
 |14|[12019](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=242&page=show_problem&problem=3170)|[Doom's Day Algorithm](一星題/Doom_s_Day_Algorithm.cpp)||||
 |15|[10038](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=979)|[Jolly Jumpers](一星題/Jolly_Jumpers.cpp)||||
-|16|[10056](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=997)|[What is the Probability?](一星題/What_is_the_Probability.cpp)||||
+|16|[10056](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=997)|[⭐️What is the Probability?](一星題/What_is_the_Probability.cpp)||||
 |17|[10170](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1111)|[The Hotel with Infinite Rooms](一星題/The_Hotel_with_Infinite_Rooms.cpp)||||
 |18|[10268](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1209)|[498 bis](一星題/498_bis.cpp)||||
 |19|[10783](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=19&page=show_problem&problem=1724)|[Odd Sum](一星題/Odd_Sum.cpp)||||
@@ -43,7 +43,7 @@
 |26|[948](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=889)|[Fibonaccimal Base](一星題/Fibonaccimal_Base.cpp)||||
 |27|[10019](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=960)|[Funny Encryption Method](一星題/Funny_Encryption_Method.cpp)||||
 |28|[10931](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1872)|[Parity](一星題/Parity.cpp)||||
-|29|[11005](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)|[Cheapest Base](一星題/Cheapest_Base.cpp)||||
+|29|[11005](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)|[⭐️Cheapest Base](一星題/Cheapest_Base.cpp)||||
 |30|[10050](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=991)|[Hartals](一星題/Hartals.cpp)||||
 |31|[10193](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1134)|[All You Need Is Love!](一星題/All_You_Need_Is_Love.cpp)||||
 |32|[10190](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1131)|[Divide,But Not Quite Conquer!](一星題/Divide_But_Not_Quite_Conquer.cpp)||||

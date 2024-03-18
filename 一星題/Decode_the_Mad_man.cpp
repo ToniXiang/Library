@@ -3,7 +3,7 @@
 using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
-    //建表 依題目：解密為字串在鍵盤上左移兩位
+    //建表 依題目：解密為字串在鍵盤上左移兩位，空格不變
     string table="`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";
     string s,buf;
     while(getline(cin,s)){

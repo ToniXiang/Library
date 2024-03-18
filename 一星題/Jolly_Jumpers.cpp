@@ -17,6 +17,7 @@ int main() {
         sort(v.begin(),v.end());
         bool fg=false;
         for(int i=0;i<v.size()-1;i++){
+            cout<<v[i]<<" ";
             if(v[i]+1!=v[i+1]){
                 fg=true;
                 break;
@@ -26,6 +27,6 @@ int main() {
     }
     return 0;
 }
-//這題的思路是，先把輸入的數據存到vector中，然後再進行操作
-//操作的時候，先把vector排序，然後再判斷是否是jolly jumper
-//如果不是，就輸出Not jolly，否則輸出Jolly
+// 輸入一個數列，判斷是否為 Jolly 數列
+// Jolly 數列定義為：數列中相鄰兩數的差的絕對值為 1~n-1
+// input：n v0、v1、v2、...、vn-1

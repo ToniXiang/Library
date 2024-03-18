@@ -13,7 +13,12 @@ int main() {
                 day+=months[i];
             }
             cout<<days[(day%7!=0?day%7-1:(day-1)%7)]<<endl;
+            //day=1 -> 0 (sat)
+            //day=8 -> 0 (sat)
+            //day=7 -> 6 (fri)
         }
     }
     return 0;
 }
+// 2011 年是一個，第一天從星期六開始
+// 平年 2 月為 28 天，閏年的 2 月為 29 天

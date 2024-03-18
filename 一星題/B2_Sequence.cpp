@@ -16,7 +16,6 @@ int main() {
                 int combine=num[i]+num[j];
                 if(st.count(combine)){
                     res="not a B2-Sequence.";
-                    i=-1;
                     break;
                 }
                 else{

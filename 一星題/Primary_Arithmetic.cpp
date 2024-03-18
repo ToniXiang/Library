@@ -19,3 +19,4 @@ int main() {
     }
     return 0;
 }
+// a+b 計算進位次數

@@ -29,3 +29,5 @@ int main() {
     }
     return 0;
 }
+// 題目：給定一個 res 進制 s 保證可以被 (res-1) 整除，求最小的 res
+// 【abc】是 (res - 1) 的倍數，則【a + b + c】也是(res -1)的倍數

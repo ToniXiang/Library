@@ -7,8 +7,8 @@ int main() {
     ios_base::sync_with_stdio(false);
     ll x,a;
     string buf;
-    while(getline(cin,buf)){
-        x=stoi(buf.c_str());
+    while(cin>>x){
+        cin.ignore();
         getline(cin,buf);
         stringstream ss(buf);
         vector<ll>v;
@@ -26,3 +26,8 @@ int main() {
     }
     return 0;
 }
+// 輸入：
+// x
+// a[0] a[1] a[2] ... a[n]
+// 題目：輸出方程式一次微分後帶入 x 的結果
+// a[0]*(n - 0)*x^(n−1) + a[1]*(n − 1)*x^(n−2) + . . .+a[n-1]

@@ -25,3 +25,5 @@ int main() {
     }
     return 0;
 }
+// 265(decimal)=100001001(binary) => b1=3
+// 265(hexadecima)==[0010][0110][0101](binary) => b2=5
