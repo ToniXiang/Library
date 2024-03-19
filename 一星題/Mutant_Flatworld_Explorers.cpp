@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<map>
 using namespace std;
 
 int main() {
@@ -9,39 +10,24 @@ int main() {
     string s;
     cin >> a >> b;
     vector<vector<int>> mp(a+1, vector<int>(b+1, 0));
+    string dir = "ESWN";
+    map<char, int> moved = {{'E', 1},{'W', -1},{'N', 0},{'S', 0}};
+    map<char, int> moved2 = {{'N', 1},{'S', -1},{'E', 0},{'W', 0}};
     while(cin >> x >> y >> z >> s){
-        bool ok = true;
+        bool fg = true;
         for(char command : s){
-            if(command == 'R'){
-                if(z == 'E') z = 'S';
-                else if(z == 'S') z = 'W';
-                else if(z == 'W') z = 'N';
-                else if(z == 'N') z = 'E';
-            } else if(command == 'L'){
-                if(z == 'E') z = 'N';
-                else if(z == 'S') z = 'E';
-                else if(z == 'W') z = 'S';
-                else if(z == 'N') z = 'W';
-            } else if(command == 'F'){
-                if(z == 'E') x++;
-                else if(z == 'S') y--;
-                else if(z == 'W') x--;
-                else if(z == 'N') y++;
-            }
+            if(command == 'R')z = dir[(dir.find(z)+1)%4];
+            else if(command == 'L')z = dir[(dir.find(z)+3)%4];
+            else if(command == 'F')x=x+moved[z],y=y+moved2[z];
             if(x < 0 || y < 0 || x > a || y > b){
-                if(z == 'E') x--;
-                else if(z == 'S') y++;
-                else if(z == 'W') x++;
-                else if(z == 'N') y--;
+                x=x-moved[z],y=y-moved2[z];
                 if(mp[x][y] == 1) continue;
                 mp[x][y] = 1;
-                ok = false;
+                fg = false;
                 break;
             }
         }
-        cout << x << " " << y << " " << z;
-        if(!ok) cout << " LOST";
-        cout << endl;
+        cout << x << " " << y << " " << z <<(!fg?" LOST\n":"\n");
     }
     return 0;
 }

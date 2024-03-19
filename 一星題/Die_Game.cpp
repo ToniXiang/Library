@@ -3,7 +3,6 @@
 using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL); // untie cin and cout
     int n, tmp, pos[7];
     string s;
     while(cin >> n && n != 0) {

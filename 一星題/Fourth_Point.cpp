@@ -21,7 +21,7 @@ int main() {
         }
         vector<ppddi>v_sort(mp.begin(),mp.end());
         sort(v_sort.begin(),v_sort.end(),[](const ppddi& a,const ppddi& b){return s(a)>s(b);});
-        //v_sort[0]是重複的點 v_sort[0].second 一定是 2 
+        //v_sort[0] 是重複的點 v_sort[0].second 一定是 2 
         pdd a=f(v_sort[0]),b=f(v_sort[1]),c=f(v_sort[2]);
         double total_x=f(a)*2+f(b)+f(c);
         double total_y=s(a)*2+s(b)+s(c);

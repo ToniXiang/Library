@@ -28,3 +28,5 @@ int main() {
     }
     return 0;
 }
+// 題目：輸入一個數字，判斷是否為 Prime、Emirp 或者都不是
+// 17 is Emirp because 17 as well as 71 are Prime.

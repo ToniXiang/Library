@@ -29,6 +29,7 @@ int main()
     {
         getline(cin, s);
         ll prev = mp[s[0]], finger[10] = {0};
+        // 第一次(沒有上一個按下的狀態)按下一個音符，要計算
         for(int i=0;i<10;i++){
             finger[i]=prev&0b1;
             prev >>= 1;
@@ -37,6 +38,7 @@ int main()
         for(int i=1;i<s.size();i++){
             ll curr = mp[s[i]];
             for(int j=0;j<10;j++){
+                // 上一個音符沒有按下，但這一個音符按下了，要計算
                 if (!(prev & 0b1) && (curr & 0b1))
                 {
                     finger[j]++;

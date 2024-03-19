@@ -51,15 +51,15 @@
 |34|[10922](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1863)|[2 the 9s](一星題/2_the_9s.cpp)||||
 |35|[11417](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2412)|[GCD](一星題/GCD.cpp)||||
 |36|[10908](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849)|[Largest Square](一星題/Largest_Squares.cpp)||||
-|37|[10221](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1162)|[Satellites](一星題/Satellites.cpp)|||
-|38|[10642](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583)|[Can You Solve It?](一星題/Can_You_Solve_It.cpp)|||
+|37|[10221](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1162)|[⭐️Satellites](一星題/Satellites.cpp)|||
+|38|[10642](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583)|[⭐️Can You Solve It?](一星題/Can_You_Solve_It.cpp)|||
 |39|[10242](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1183)|[Fourth Point!!](一星題/Fourth_Point.cpp)|||
 |40|[10057](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=998)|[A mid-summer night’s dream](一星題/A_mid_summer_night_s_dream.cpp)|||
 |41|[10062](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1003)|[Tell me the frequencies!](一星題/Tell_me_the_frequencies.cpp)|||
 |42|[299](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=235)|[Train Swapping](一星題/Train_Swapping.cpp)|||
 |43|[10226](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1167)|[Hardwood Species](一星題/Hardwood_Species.cpp)|||
 |44|[10189](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130)|[Minesweeper](一星題/Minesweeper.cpp)|||
-|45|[10409](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350)|[Die Game](一星題/Die_Game.cpp)|||
+|45|[10409](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350)|[⭐️Die Game](一星題/Die_Game.cpp)|||
 |46|[10415](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356)|[Eb Alto Saxophone Player](一星題/Eb_Alto_Saxophone_Player.cpp)|||
 |47|[118](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)|[Mutant Flatworld Explorers](一星題/Mutant_Flatworld_Explorers.cpp)|||
 |48|[11150](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)|[Cola](一星題/Cola.cpp)|||

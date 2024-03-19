@@ -29,3 +29,15 @@ int main() {
     }
     return 0;
 }
+// precede (再前面) ascending order (遞增排序)
+//
+// the N numbers in ascending order of their modulo M value.
+// (that is their modulo M value is the same) 
+// ... then the odd number will precede the even number.
+// ... then the larger odd number will precede the smaller odd number.
+// ... then the smaller even number will precede the larger even number.
+//
+// 這題的 mod M 值是從遞增排序
+// 如果 mod M 相同，那麼奇數會排在前面
+// 如果都是奇數，那麼大的數字會排在前面
+// 如果都是偶數，那麼小的數字會排在前面
