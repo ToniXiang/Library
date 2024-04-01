@@ -49,8 +49,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/chen1/OneDrive/Desktop/Department of Resources and Engineering/Library/競賽程式",
+      "program": "c:/Users/chen1/OneDrive/Desktop/Department of Resources and Engineering/Library/競賽程式/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
