@@ -1,38 +1,32 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 typedef long long ll;
-vector<ll>num={1,1};// smaller than 1E8 have 40 fib numbers
-int bs(int left,int right,ll key){
-    if(left>right)return right;
-    int mid=left+(right-left)/2;
-    if(key==num[mid])return mid;
-    else if(key>num[mid])return bs(mid+1,right,key);
-    else return bs(left,mid-1,key);
-}
-int main() {
-    ios_base::sync_with_stdio(false);
-    for(int i=2;num[num.size()-1]<1E8;i++){
-        num.push_back(num[i-2]+num[i-1]);
-    }
-    int n;
-    ll n1;
-    cin>>n;
-    for(int j=1;j<=n;j++){
-        cin>>n1;
-        int aim=bs(2,39,n1);
-        ll head=n1;
-        string res="";
-        for(int i=aim;i>=1;i--){
-            if(head>=num[i]){
-                res+="1";
-                head-=num[i];
-            }
-            else{
-                res+="0";
-            }
-        }
-        cout<<n1<<" = "<<res<<" (fib)"<<endl;
-    }
-    return 0;
+int main(){
+	vector<ll>v{1};
+	int cur=2;
+	while(cur<1E8){
+		v.push_back(cur);
+		cur=cur+v[v.size()-2];
+	}
+	int n;
+	ll a;
+	while(cin>>n){
+		while(n--){
+			cin>>a;
+			ll rd=a;
+			string s="";
+			int index=distance(v.begin(),upper_bound(v.begin(),v.end(),rd));
+			for(int i=index;i>=0;i--){
+				if(rd>=v[i]){
+					s+="1";
+					rd-=v[i];
+				}
+				else s+="0";
+			}
+			cout<<a<<" = "<<s.substr(1)<<" (fib)"<<endl;
+		}
+	}
+	return 0;
 }

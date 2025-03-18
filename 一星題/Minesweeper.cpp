@@ -1,37 +1,43 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-int main() {
-    ios_base::sync_with_stdio(false);
-    int m,n,cnt=0;
-    char c;
-    while(cin>>m>>n){
-        if(m==0&&n==0) break;
-        int mp[m][n];
-        vector<pair<int,int>> rd;
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                cin>>c;
-                if(c=='*') mp[i][j]=-1,rd.push_back({i,j});
-                else mp[i][j]=0;
-            }
-        }
-        for(const auto i:rd){
-            int cnt=0;
-            for(int j=i.first-1;j<=i.first+1;j++){
-                for(int k=i.second-1;k<=i.second+1;k++){
-                    if(j>=0&&j<m&&k>=0&&k<n&&mp[j][k]!=-1)mp[j][k]++;
-                }
-            }
-        }
-        cout<<"Field #"<<++cnt<<":"<<endl;
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(mp[i][j]==-1) cout<<"*";
-                else cout<<mp[i][j];
-            }
-            cout<<endl;
-        }
-    }
-    return 0;
+typedef pair<int,int> pii;
+int main(){
+	int n,m;
+	char ch;
+	int rd=0;
+	bool end=false;
+	while(cin>>n>>m){
+		if(n==0&&m==0)break;
+		if(end)cout<<endl;
+		cout<<"Field #"<<++rd<<":"<<endl;
+		int mp[n][m]={0};
+		vector<pii>pt;
+		for(int i=0;i<n;i++){
+			for(int j=0;j<m;j++){
+				mp[i][j]=0;
+				cin>>ch;
+				if(ch=='*'){
+					pt.push_back({i,j});
+					mp[i][j]=-1;
+				}
+			}
+		}
+		for(const pii&it:pt){
+			for(int a=it.first-1;a<=it.first+1;a++){
+				for(int b=it.second-1;b<=it.second+1;b++){
+					if(a<0||b<0||a>=n||b>=m||mp[a][b]==-1)continue;
+					mp[a][b]+=1;
+				}
+			}
+		}
+		for(int i=0;i<n;i++){
+			for(int j=0;j<m;j++){ // tip ?: must use same type like x = (bool) ? string : string
+				cout<<(mp[i][j]==-1?"*":to_string(mp[i][j]));
+			}
+			cout<<endl;
+		}
+		end=true;
+	}
+	return 0;
 }

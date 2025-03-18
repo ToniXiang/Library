@@ -1,29 +1,30 @@
 #include<iostream>
+#include<vector>
 using namespace std;
-int main() {
-    ios_base::sync_with_stdio(false);
-    int n,n1;
-    cin>>n;
-    while (n--)
-    {
-        cin>>n1;
-        int num[n1];
-        for(int i=0;i<n1;i++){
-            cin>>num[i];
-        }
-        int count=0;
-        for(int i=0;i<n1;i++){
-            for(int j=i+1;j<n1;j++){
-                if(num[i]>num[j]){
-                    int temp=num[i];
-                    num[i]=num[j];
-                    num[j]=temp;
-                    count++;
-                }
-            }
-        }
-        cout<<"Optimal train swapping takes "<<count<<" swaps."<<endl;
-    }
-    
-    return 0;
+int main(){
+	int n,m,a;
+	while(cin>>n){
+		while(n--){
+			cin>>m;
+			vector<int>v;
+			for(int i=0;i<m;i++){
+				cin>>a;
+				v.push_back(a);
+			}
+			int total=0;
+			// dont use #include<alorithm> sort. it is faster than this sort.
+			for(int i=0;i<m;i++){
+				for(int j=i+1;j<m;j++){
+					if(v[i]>v[j]){
+						total++;
+						int tmp=v[i];
+						v[i]=v[j];
+						v[j]=tmp;
+					}
+				}
+			}
+			cout<<"Optimal train swapping takes "<<total<<" swaps."<<endl;
+		}
+	}
+	return 0;
 }

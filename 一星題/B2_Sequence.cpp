@@ -1,29 +1,29 @@
 #include<iostream>
-#include<unordered_set>
+#include<vector>
+#include<algorithm>
+#include<sstream>
 using namespace std;
-int main() {
-    ios_base::sync_with_stdio(false);
-    int n,cnt=1;
-    while(cin>>n){
-        int num[n];
-        for(int i=0;i<n;i++){
-            cin>>num[i];
-        }
-        unordered_set<int>st;
-        string res="a B2-Sequence.";
-        for(int i=n-1;i>=0;i--){
-            for(int j=i;j>=0;j--){
-                int combine=num[i]+num[j];
-                if(st.count(combine)){
-                    res="not a B2-Sequence.";
-                    break;
-                }
-                else{
-                    st.insert(combine);
-                }
-            }
-        }
-        cout<<"Case #"<<cnt++<<": It is "<<res<<endl;
-    }
-    return 0;
+int main(){
+	int n,a,rd=0;
+	string s;
+	while(getline(cin,s)){
+		if(s=="")continue;
+		stringstream ss(s);
+		ss>>n;
+		vector<int>v;
+		while(n--){
+			cin>>a;
+			v.push_back(a);
+		}
+		sort(v.begin(),v.end());
+		bool fg=true;
+		for(int j=1;j<v.size()-1;j++){
+			if(v[j-1]*2!=v[j]){
+				fg=false;
+				break;
+			}
+		}
+		cout<<"Case #"<<++rd<<": It is"<<(fg?" a ":" not a ")<<"B2-Sequence."<<endl<<endl;
+	}
+	return 0;
 }

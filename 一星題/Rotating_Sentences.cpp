@@ -1,23 +1,29 @@
 #include<iostream>
-#include<vector>
-#include<algorithm>
 using namespace std;
-int main() {
-    ios_base::sync_with_stdio(false);
-    vector<string>v;
-    string s;
-    int n=0;
-    while(getline(cin,s)&&s!=""){
-        v.push_back(s);
-        n=max((int)s.size(),n);
-    }
-    for(int i=0;i<n;i++){
-        for(int j=v.size()-1;j>=0;j--){
-            cout<<(i<v[j].size()?v[j][i]:' ');
-        }
-        cout<<"\n";
-    }
-    return 0;
+int main(){
+	string s;
+	char num[100][100]={' '};
+	for(int x=0;x<100;x++){
+		for(int y=0;y<100;y++){
+			num[x][y]=' ';
+		}
+	}
+	int rd=0,len=0;
+	while(getline(cin,s)){
+		if(s=="")break;
+		for(int j=0;j<s.size();j++){
+			num[rd][j]=s[j];
+		}
+		rd++;
+		len=max(len,(int)s.size());
+	}
+	for(int x=0;x<len;x++){
+		for(int y=rd-1;y>=0;y--){
+			cout<<num[y][x];
+		}
+		cout<<endl;
+	}
+	return 0;
 }
 // 紀錄每行的字串，並找出最長的字串長度
 // 然後依序輸出每行的第 i 個字元，若該行沒有第 i 個字元則輸出空白。

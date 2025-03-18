@@ -1,33 +1,29 @@
 #include<iostream>
 using namespace std;
-typedef long long ll;
-int main() {
-    ios_base::sync_with_stdio(false);
-    int n,n1,cnt=1;
-    char buf;
-    cin>>n;
-    while(n--){
-        cin>>buf>>buf>>n1;
-        ll mp[n1][n1]={0};
-        string res="Symmetric.";
-        for(int i=0;i<n1;i++){
-            for(int j=0;j<n1;j++){
-                cin>>mp[i][j];
-                if(mp[i][j]<0)res="Non-symmetric.";
-            }
-        }
-        if(res=="Symmetric."){
-            for(int i=0;i<n1;i++){
-                for(int j=0;j<n1;j++){
-                    if(mp[i][j]!=mp[n1-1-i][n1-1-j]){
-                        res="Non-symmetric.";
-                        i=n1;
-                        break;
-                    }
-                }
-            }
-        }
-        cout<<"Test #"<<cnt++<<": "<<res<<endl;
-    }
-    return 0;
+int main(){
+	int n,m;
+	char buf,buf1;
+	while(cin>>n){
+		for(int rd=1;rd<=n;rd++){
+			cin>>buf>>buf1>>m;
+			int num[m][m]={0};
+			for(int i=0;i<m;i++){
+				for(int j=0;j<m;j++){
+					cin>>num[i][j];
+				}
+			}
+			bool fg=true;
+			for(int i=0;i<m;i++){
+				for(int j=0;j<m;j++){
+					if(num[m-1-i][m-1-j]!=num[i][j]||num[i][j]<0){
+						fg=false;
+						break;
+					}
+				}
+				if(!fg)break;
+			}
+			cout<<"Test #"<<rd<<": "<<(fg?"Symmetric.":"Non-symmetric.")<<endl;
+		}
+	}
+	return 0;
 }

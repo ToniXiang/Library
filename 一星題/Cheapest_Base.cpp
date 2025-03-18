@@ -1,38 +1,44 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 typedef long long ll;
-int main() {
-    ios_base::sync_with_stdio(false);
-    int n,n1;
-    ll a,b;
-    int cost[36]={0};
-    cin>>n;
-    for(int i=1;i<=n;i++){
-        cout<<"Case "<<i<<endl;
-        for(int j=0;j<36;j++){
-            cin>>cost[j];
-        }
-        cin>>n1;
-        while(n1--){
-            cin>>a;
-            ll res=1E9;
-            int rd[37]={0};
-            for(int j=2;j<=36;j++){
-                b=a;
-                ll val=0;
-                while(b>0){
-                    val+=cost[b%j];
-                    b/=j;
-                }
-                rd[j]=val;
-                res=min(val,res);
-            }
-            cout<<"Cheapest base(s) for number "<<a<<":";
-            for(int j=2;j<=36;j++){
-                cout<<(res==rd[j]?" "+to_string(j):"");
-            }
-            cout<<"\n";
-        }
-    }
+int main(){
+	int n,m;
+	ll a;
+	while(cin>>n){
+		for(int sq=1;sq<=n;sq++){
+			cout<<"Case "<<sq<<":"<<endl;
+			int cost[36]={0};
+			for(int i=0;i<36;i++){
+				cin>>cost[i];
+			}
+			cin>>m;
+			while(m--){
+				cin>>a;
+				ll r=1E9;
+				vector<int>v;
+				for(int i=2;i<=36;i++){
+					ll rd=a;
+					ll cur_r=0;
+					while(rd>0){
+						cur_r+=cost[rd%i];
+						rd/=i;
+					}
+					if(r>cur_r){
+						r=cur_r;
+						v.clear();
+					}
+					if(r==cur_r)v.push_back(i);
+				}
+				cout<<"Cheapest base(s) for number "<<a<<": ";
+				for(int i=0;i<v.size();i++){
+					cout<<v[i]<<(i==v.size()-1?"":" ");
+				}
+				cout<<endl;
+			}
+			if(sq!=n)cout<<endl;
+		}
+	}
+	return 0;
 }
-// 將十進位值傳成 n 進位，再計算各自的價位進行加總，找出最小值
+// 計算各自的價位進行加總，找出最小值

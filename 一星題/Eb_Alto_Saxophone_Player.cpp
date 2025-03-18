@@ -1,58 +1,46 @@
-#include <iostream>
-#include <map>
+#include<iostream>
+#include<map>
+#include<vector>
 using namespace std;
-typedef long long ll;
-int main()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    map<char, ll> mp;
-    mp['c'] = 0b0111001111;
-    mp['d'] = 0b0111001110;
-    mp['e'] = 0b0111001100;
-    mp['f'] = 0b0111001000;
-    mp['g'] = 0b0111000000;
-    mp['a'] = 0b0110000000;
-    mp['b'] = 0b0100000000;
-    mp['C'] = 0b0010000000;
-    mp['D'] = 0b1111001110;
-    mp['E'] = 0b1111001100;
-    mp['F'] = 0b1111001000;
-    mp['G'] = 0b1111000000;
-    mp['A'] = 0b1110000000;
-    mp['B'] = 0b1100000000;
-    int n;
-    string s;
-    cin >> n;
-    cin.ignore();
-    while (n--)
-    {
-        getline(cin, s);
-        ll prev = mp[s[0]], finger[10] = {0};
-        // 第一次(沒有上一個按下的狀態)按下一個音符，要計算
-        for(int i=0;i<10;i++){
-            finger[i]=prev&0b1;
-            prev >>= 1;
-        }
-        prev=mp[s[0]];
-        for(int i=1;i<s.size();i++){
-            ll curr = mp[s[i]];
-            for(int j=0;j<10;j++){
-                // 上一個音符沒有按下，但這一個音符按下了，要計算
-                if (!(prev & 0b1) && (curr & 0b1))
-                {
-                    finger[j]++;
-                }
-                curr >>= 1;
-                prev >>= 1;
-            }
-            prev = mp[s[i]];
-        }
-        for (int i = 0; i < 10; i++)
-        {
-            cout << finger[9-i] << " ";
-        }
-        cout << '\n';
-    }
-    return 0;
+void f(int n,vector<int>&v){
+	int i=0;
+	while(n>0){
+		if((n&0x01))v[i]++;
+		n>>=1;
+		i++;
+	}
+}
+int main(){
+	map<char,int>mp;
+	mp['c']=0b0111001111;
+	mp['d']=0b0111001110;
+	mp['e']=0b0111001100;
+	mp['f']=0b0111001000;
+	mp['g']=0b0111000000;
+	mp['a']=0b0110000000;
+	mp['b']=0b0100000000;
+	mp['C']=0b0010000000;
+	mp['D']=0b1111001110;
+	mp['E']=0b1111001100;
+	mp['F']=0b1111001000;
+	mp['G']=0b1111000000;
+	mp['A']=0b1110000000;
+	mp['B']=0b1100000000;
+	int n;
+	string s;
+	while(cin>>n){
+		while(n--){
+		cin>>s;
+		vector<int>v={0,0,0,0,0,0,0,0,0,0};
+		f(mp[s[0]],v);
+		for(int i=1;i<s.size();i++){
+			f(((~mp[s[i-1]])&mp[s[i]]),v);
+		}
+		for(int i=v.size()-1;i>=0;i--){
+			cout<<v[i]<<(i==0?"":" ");
+		}
+		cout<<endl;
+		}
+	}
+	return 0;
 }

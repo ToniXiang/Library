@@ -3,13 +3,15 @@ using namespace std;
 typedef long long ll;
 int main() {
     ios_base::sync_with_stdio(false);
-    ll a,b;
-    while(cin>>a>>b){
-        while(b>0){
-            b-=(a++);
-        }
-        cout<<a-1<<endl;
-    }
+    ll s,d;
+	while(cin>>s>>d){
+		//if s = 3 =>	1 morining in -> 3 evening out
+		while(d>0){
+			d-=s;
+			s++;
+		}
+		cout<<s-1<<endl;
+	}
     return 0;
 }
 // 1. 任何一天只能住一個旅行團

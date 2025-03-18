@@ -1,35 +1,39 @@
 #include<iostream>
 #include<vector>
+#include<iomanip>
+#include<sstream>
 using namespace std;
 typedef long long ll;
-vector<string>str={"","shata","hajar","lakh","kuti","shata","hajar","lakh","kuti"};
-vector<int>number={100,10,100,100,100,10,100,100,100};
-int main() {
-    ios_base::sync_with_stdio(false);
-    ll n;
-    int cnt1=0;
-    while(cin>>n){
-        string res="",base="";
-        int cnt=0;
-        if(n==0){
-            cout<<++cnt1<<". 0"<<endl;
-            continue;
-        }
-        while(n>0){     
-            int remainder=n%number[cnt];
-            n/=number[cnt];
-            if(remainder>0){
-                res=" "+to_string(remainder)+" "+str[cnt]+res;
-            }
-            else if(str[cnt]=="kuti"){
-                res=" kuti"+res;
-            }
-            cnt++;
-        }
-        cout<<++cnt1<<"."<<res<<endl;
-    }
-    return 0;
+vector<pair<ll,string>>v{{(ll)1E2,"lakh"},{(ll)1E2,"hajar"},{(ll)1E1,"shata"},{(ll)1E2,""}};
+int main(){
+	ll n;
+	string s;
+	int rd=0;
+	while(getline(cin,s)){
+		if(s=="")break;
+		stringstream ss(s);
+		ss>>n;
+		string r="";
+		for(int i=v.size()-1;i>=0;i--){
+			if(n==0)break;
+			ll q=n%v[i].first;
+			n/=v[i].first;
+			if(q!=0)r=" "+to_string(q)+(i==v.size()-1?"":" ")+v[i].second+r;
+		}
+		if(n!=0)r=" kuti"+r;
+		for(int i=v.size()-1;i>=0;i--){
+			if(n==0)break;
+			ll q=n%v[i].first;
+			n/=v[i].first;
+			if(q!=0)r=" "+to_string(q)+(i==v.size()-1?"":" ")+v[i].second+r;
+		}
+		if(n!=0)r=" "+to_string(n)+" kuti"+r;
+		if(r=="")r=" 0";
+		cout<<setfill(' ')<<setw(4)<<++rd<<"."<<r<<endl;
+	}
+	return 0;
 }
+
 // 1E2 shata
 // 1E3 hajar
 // 1E5 lakh

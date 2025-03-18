@@ -1,5 +1,5 @@
 # <p align="center">個人程式解題庫</p>
-我自 2023 年以來解決的演算法考題。對於每個題目，大部分有對應的程式碼，包含一些理解整理的補充，以及我對題目的完成度和補充說明。
+我自 2023 年以來解決的演算法考題。對於每個題目，大部分有對應的程式碼，包含一些理解後所整理的補充，以及我對題目的完成度和補充說明。
 
 <table align="center">
 <tr><th>題目來源</th></tr>
@@ -43,7 +43,7 @@
 |26|[948](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=889)|[Fibonaccimal Base](一星題/Fibonaccimal_Base.cpp)|費式進位|
 |27|[10019](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=960)|[Funny Encryption Method](一星題/Funny_Encryption_Method.cpp)|十、十六轉二進制|
 |28|[10931](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1872)|[Parity](一星題/Parity.cpp)|十轉二進制|
-|29|[11005](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)|[⭐️Cheapest Base](一星題/Cheapest_Base.cpp)|進制與花費|
+|29|[11005](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1946)|[Cheapest Base](一星題/Cheapest_Base.cpp)|進制與花費|
 |30|[10050](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=991)|[Hartals](一星題/Hartals.cpp)|倍數|
 |31|[10193](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1134)|[All You Need Is Love!](一星題/All_You_Need_Is_Love.cpp)|最大公因數|
 |32|[10190](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1131)|[Divide,But Not Quite Conquer!](一星題/Divide_But_Not_Quite_Conquer.cpp)|倍數|
@@ -53,12 +53,12 @@
 |36|[10908](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1849)|[Largest Square](一星題/Largest_Squares.cpp)|幾何與座標|
 |37|[10221](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1162)|[⭐️Satellites](一星題/Satellites.cpp)|數學|
 |38|[10642](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1583)|[⭐️Can You Solve It?](一星題/Can_You_Solve_It.cpp)|數學|
-|39|[10242](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1183)|[Fourth Point!!](一星題/Fourth_Point.cpp)|字典|
+|39|[10242](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1183)|[Fourth Point!!](一星題/Fourth_Point.cpp)|集合|
 |40|[10057](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=998)|[A mid-summer night’s dream](一星題/A_mid_summer_night_s_dream.cpp)|中位數|
 |41|[10062](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1003)|[Tell me the frequencies!](一星題/Tell_me_the_frequencies.cpp)|字典|
 |42|[299](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=235)|[Train Swapping](一星題/Train_Swapping.cpp)|泡沫排序|
 |43|[10226](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1167)|[Hardwood Species](一星題/Hardwood_Species.cpp)|字典|
-|44|[10189](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130)|[Minesweeper](一星題/Minesweeper.cpp)|模擬|
+|44|[10189](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1130)|[Minesweeper](一星題/Minesweeper.cpp)|模擬排序|
 |45|[10409](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1350)|[⭐️Die Game](一星題/Die_Game.cpp)|模擬轉動骰子|
 |46|[10415](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=1356)|[Eb Alto Saxophone Player](一星題/Eb_Alto_Saxophone_Player.cpp)|模擬按下次數|
 |47|[118](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)|[Mutant Flatworld Explorers](一星題/Mutant_Flatworld_Explorers.cpp)|模擬移動位置|

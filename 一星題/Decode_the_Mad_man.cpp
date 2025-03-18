@@ -1,27 +1,27 @@
 #include<iostream>
-#include<algorithm>
+#include<algorithm>// 用於 std::transform
+#include<cctype>// 用於 ::tolower
 using namespace std;
-int main() {
-    ios_base::sync_with_stdio(false);
-    //建表 依題目：解密為字串在鍵盤上左移兩位，空格不變
-    string table="`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./";
-    string s,buf;
-    while(getline(cin,s)){
-        string res="";
-        for(char it:s){
-            if(it>='A'&&it<='Z')it=tolower(it);
-            if(it==' '){
-                res+=" ";
-                continue;
-            }
-            for(int i=0;i<table.size();i++){
-                if(it==table[i]){
-                    res+=table[i-2];
-                    break;
-                }
-            }
-        }
-        cout<<res<<endl;
-    }
-    return 0;
+int main(){
+	string arr="`1234567890-=qwertyuiop[]asdfghjkl;'zxcvbnm,./";
+	string s;
+	while(getline(cin,s)){
+		// transform(開始和結束迭代器,存回原字串,[::tolower或::toupper])
+		transform(s.begin(),s.end(),s.begin(),::tolower);
+		string res="";
+		for(char& i:s){
+			int index=-1;
+			for(int j=0;j<arr.size();j++){
+				if(i==arr[j]){
+					index=j;
+					break;
+				}
+			}
+			if(index==-1)res+=" ";
+			else res+=arr[(index+44)%arr.size()];
+		}
+		cout<<res<<endl;
+	}
+	return 0;
 }
+//建表 依題目：解密為字串在鍵盤上左移兩位，空格不變

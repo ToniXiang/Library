@@ -1,33 +1,43 @@
 #include<iostream>
 #include<vector>
-#include<map>
 using namespace std;
-
-int main() {
-    ios_base::sync_with_stdio(false);
-    int a, b, x, y;
-    char z;
-    string s;
-    cin >> a >> b;
-    vector<vector<int>> mp(a+1, vector<int>(b+1, 0));
-    string dir = "ESWN";
-    map<char, int> moved = {{'E', 1},{'W', -1},{'N', 0},{'S', 0}};
-    map<char, int> moved2 = {{'N', 1},{'S', -1},{'E', 0},{'W', 0}};
-    while(cin >> x >> y >> z >> s){
-        bool fg = true;
-        for(char command : s){
-            if(command == 'R')z = dir[(dir.find(z)+1)%4];
-            else if(command == 'L')z = dir[(dir.find(z)+3)%4];
-            else if(command == 'F')x=x+moved[z],y=y+moved2[z];
-            if(x < 0 || y < 0 || x > a || y > b){
-                x=x-moved[z],y=y-moved2[z];
-                if(mp[x][y] == 1) continue;
-                mp[x][y] = 1;
-                fg = false;
-                break;
-            }
-        }
-        cout << x << " " << y << " " << z <<(!fg?" LOST\n":"\n");
-    }
-    return 0;
+string dir="NESW";
+pair<int,int>moved[4]={{0,1},{1,0},{0,-1},{-1,0}};// N{0,1} S{0,-1}
+int main(){
+	int n,m;
+	string s;
+	while(cin>>n>>m){
+		int x,y;
+		char d;
+		vector<vector<int>> mp(n+1, vector<int>(m+1,0));
+		while(cin>>x>>y>>d>>s){
+			int cur_dir=dir.find(d);
+			bool fg=false;
+			for(const char&it:s){
+				if(it=='L'){
+					if(--cur_dir==-1)cur_dir=3;
+				}
+				else if(it=='R'){
+					if(++cur_dir==4)cur_dir=0;
+				}
+				else{//'F'
+					x+=moved[cur_dir].first;
+					y+=moved[cur_dir].second;
+					if(x<0||y<0||x>n||y>m){
+						x-=moved[cur_dir].first;
+						y-=moved[cur_dir].second;
+						if(mp[x][y]==1)continue;
+                	    mp[x][y]=1;
+                		fg=true;
+						break;
+					}
+				}
+			}
+			cout<<x<<" "<<y<<" "<<dir[cur_dir]<<(fg?" LOST":"")<<endl;
+		}
+	}
+	return 0;
 }
+// 同一地方越界不會再發生
+// if 越界 => LOST 並記錄
+// if 越界但曾在同一地方 => 回溯到上一個位置

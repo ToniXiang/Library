@@ -2,29 +2,29 @@
 #include<sstream>
 #include<vector>
 using namespace std;
-typedef long long ll;
-int main() {
-    ios_base::sync_with_stdio(false);
-    ll x,a;
-    string buf;
-    while(cin>>x){
-        cin.ignore();
-        getline(cin,buf);
-        stringstream ss(buf);
-        vector<ll>v;
-        while(getline(ss,buf,' '))
-        {
-            v.push_back(stoi(buf.c_str()));
-        }
-        v.pop_back();
-        ll res=0,m=1;
-        for(int i=v.size()-1;i>=0;i--){
-            res+=v[i]*(v.size()-i)*m;
-            m*=x;
-        }
-        cout<<res<<endl;
-    }
-    return 0;
+int main(){
+	int n,a;
+	string s;
+	while(cin>>n){
+		cin.ignore();
+		getline(cin,s);
+		stringstream ss(s);
+		vector<int>v;
+		while(ss>>a){
+			v.push_back(a);
+		}
+		int total=0,m=1;
+		for(int i=v.size()-2;i>=0;i--){
+			total+=(v.size()-1-i)*m*v[i];
+			m*=n;
+		}
+		cout<<total<<endl;
+		//1x-1
+		//1	=> 1
+		//x^2+x+1
+		//2x+1 =>5
+	}
+	return 0;
 }
 // 輸入：
 // x
