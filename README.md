@@ -1,5 +1,5 @@
 # <p align="center">個人程式解題庫</p>
-我自 2023 年以來解決的演算法考題。對於每個題目，大部分有對應的程式碼，包含一些理解後所整理的補充，以及我對題目的完成度和補充說明。
+我自 2023 年以來解決的演算法考題。對於每個題目，大部分有對應的程式碼，包含一些理解後所整理的補充，以及我對題目的完成度和補充說明。時隔幾個月在整理，另外，Codeforces 題目則是挑選一些經典題目或有趣的題目來做。CP Editor 是我用來寫程式碼的工具，接近實際競賽的編程環境。
 
 <table align="center">
 <tr><th>題目來源</th></tr>
@@ -8,7 +8,8 @@
 | 網站 | 資料夾 |
 |--|--|
 |[高中生程式解題系統](https://zerojudge.tw/)|競賽程式|
-|[大學生程式能力檢定](https://cpe.cse.nsysu.edu.tw/history.php)|CPE、一星題|
+|[大學生程式能力檢定](https://cpe.mcu.edu.tw/history.php)|CPE、一星題|
+|[Codeforces](https://codeforces.com/)|ACMSGURU|
 
 </td></tr> </table>
 
