@@ -9,7 +9,7 @@
 |--|--|
 |[高中生程式解題系統](https://zerojudge.tw/)|競賽程式|
 |[大學生程式能力檢定](https://cpe.mcu.edu.tw/history.php)|CPE、一星題|
-|[Codeforces](https://codeforces.com/)|ACMSGURU|
+|[Codeforces](https://codeforces.com/)|MAIN、ACMSGURU|
 
 </td></tr> </table>
 
