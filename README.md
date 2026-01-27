@@ -1,18 +1,7 @@
-# <p align="center">個人程式解題庫</p>
-我自 2023 年以來解決的演算法考題。對於每個題目，大部分有對應的程式碼，包含一些理解後所整理的補充，以及我對題目的完成度和補充說明。
+## 紀錄
+關鍵字：`大學生程式能力檢定`
 
-<table align="center">
-<tr><th>題目來源</th></tr>
-<tr><td> 
-
-| 網站 | 資料夾 |
-|--|--|
-|[高中生程式解題系統](https://zerojudge.tw/)|競賽程式|
-|[大學生程式能力檢定](https://cpe.cse.nsysu.edu.tw/history.php)|CPE、一星題|
-
-</td></tr> </table>
-
-## <p align="center">CPE 一顆星</p>
+## 一顆星
 ||UVA編號|題目|補充|
 |:-:|:-:|:-:|:-:|
 |1|[10041](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=982)|[Vito's family](一星題/Vito_s_family.cpp)|中位數|
@@ -64,8 +53,9 @@
 |47|[118](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)|[Mutant Flatworld Explorers](一星題/Mutant_Flatworld_Explorers.cpp)|模擬移動位置|
 |48|[11150](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)|[Cola](一星題/Cola.cpp)|數學|
 |49|[11321](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2296)|[Sort!Sort!!andSort!!!](一星題/Sort_Sort_andSort.cpp)|排序，但很多條件|
-## <p align="center">CPE 題目 2023</p>
-### <p align="center">[20231019](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-10-17)</p>
+## 考試
+前三題容易，抓兩小時內全正確做完，考慮題目邊界，防極端測資造成 WA 或 TLE 被加時，後四題選做
+### [20231019](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-10-17)
 |題號|編號&題目|完成度|補充|
 |:--:|:------:|:---:|:--:|
 |1|[11576:ScrollingSign](CPE/20231019CPE/11576Scrolling_Sign.cpp)|solved||
@@ -75,7 +65,7 @@
 |5|1193:RadarInstallation|||
 |6|10672:Marblesonatree|||
 |7|11175:FromDtoEandBack|||
-### <p align="center">[20230523](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-05-23)</p>
+### [20230523](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-05-23)
 |題號|編號&題目|完成度|補充|
 |:--:|:------:|:---:|:--:|
 |1|[11934:MagicFormula](CPE/20230523CPE/11934Magic_Formula.cpp)|solved||
@@ -85,7 +75,7 @@
 |5|[512:SpreadsheetTracking](CPE/20230523CPE/512Spreadsheet_Tracking.cpp)|solved||
 |6|828:DecipheringMessages|||
 |7|828:DecipheringMessages|||
-### <p align="center">[20230321](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-03-21)</p>
+### [20230321](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-03-21)
 |題號|編號&題目|完成度|補充|
 |:--:|:------:|:---:|:--:|
 |1|[10035:PrimaryArithmetic](一星題/Primary_Arithmetic.cpp)|solved||
