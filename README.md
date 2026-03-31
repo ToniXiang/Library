@@ -1,7 +1,5 @@
-## 紀錄
-關鍵字：`大學生程式能力檢定`
-
 ## 一顆星
+
 ||UVA編號|題目|補充|
 |:-:|:-:|:-:|:-:|
 |1|[10041](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=982)|[Vito's family](一星題/Vito_s_family.cpp)|中位數|
@@ -53,35 +51,3 @@
 |47|[118](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=54)|[Mutant Flatworld Explorers](一星題/Mutant_Flatworld_Explorers.cpp)|模擬移動位置|
 |48|[11150](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2091)|[Cola](一星題/Cola.cpp)|數學|
 |49|[11321](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=25&page=show_problem&problem=2296)|[Sort!Sort!!andSort!!!](一星題/Sort_Sort_andSort.cpp)|排序，但很多條件|
-## 考試
-前三題容易，抓兩小時內全正確做完，考慮題目邊界，防極端測資造成 WA 或 TLE 被加時，後四題選做
-### [20231019](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-10-17)
-|題號|編號&題目|完成度|補充|
-|:--:|:------:|:---:|:--:|
-|1|[11576:ScrollingSign](CPE/20231019CPE/11576Scrolling_Sign.cpp)|solved||
-|2|[10093:AnEasyProblem!](一星題/An_Easy_Problem.cpp)|solved||
-|3|[10161:AntonaChessboard](CPE/20231019CPE/10161Ant_on_a_Chessboard.cpp)|solved||
-|4|[442:MatrixChainMultiplication](CPE/20231019CPE/442Matrix_Chain_Multiplication.cpp)|solved|矩陣鏈乘積|
-|5|1193:RadarInstallation|||
-|6|10672:Marblesonatree|||
-|7|11175:FromDtoEandBack|||
-### [20230523](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-05-23)
-|題號|編號&題目|完成度|補充|
-|:--:|:------:|:---:|:--:|
-|1|[11934:MagicFormula](CPE/20230523CPE/11934Magic_Formula.cpp)|solved||
-|2|[11349:SymmetricMatrix](一星題/Symmetric_Matrix.cpp)|solved||
-|3|[834:ContinuedFractions](CPE/20230523CPE/834Continued_Fractions.cpp)|solved||
-|4|[12455:Bars](CPE/20230523CPE/12455Bars.cpp)|solved||
-|5|[512:SpreadsheetTracking](CPE/20230523CPE/512Spreadsheet_Tracking.cpp)|solved||
-|6|828:DecipheringMessages|||
-|7|828:DecipheringMessages|||
-### [20230321](https://cpe.cse.nsysu.edu.tw/cpe/test_data/2023-03-21)
-|題號|編號&題目|完成度|補充|
-|:--:|:------:|:---:|:--:|
-|1|[10035:PrimaryArithmetic](一星題/Primary_Arithmetic.cpp)|solved||
-|2|[11824:AMinimumLandPrice](CPE/20230321CPE/11824A_Minimum_Land_Price.cpp)|solved||
-|3|[13055:Inception](CPE/20230321CPE/13055Inception.cpp)|solved||
-|4|[11240:Antimonotonicity](CPE/20230321CPE/11240Antimonotonicity.cpp)|solved||
-|5|[160:FactorsandFactorials](CPE/20230321CPE/60Factors_and_Factorials.cpp)|solved||
-|6|1366:MartianMining|||
-|7|11624:Fire!|||
